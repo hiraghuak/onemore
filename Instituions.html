@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Instituions | Afterschool.my</title>
+    <!-- common css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/coursedetail.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+    <link rel="stylesheet" href="css/responsive-scrolling-tabs.css">
+    <!--Course Listing Css start-->
+    <link rel="stylesheet" href="css/jquery.webui-popover.css">
+    <link rel="stylesheet" href="css/jquery-ui-price-range-slider.css">
+    <link rel="stylesheet" href="css/Course-listing.css">
+    <!--POPOVER CSS-->
+    <link rel="stylesheet" href="css/jquery.webui-popover.css">
+</head>
+
+<body>
+    <!-- header starts -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="row">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#homepage-nav-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img src="img/coursedetail/afterschool-logo.png" class="img-responsive" alt="afterschool logo">
+                        </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="homepage-nav-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hi Rajesh, <i class="fa fa-cog" aria-hidden="true"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Logout</a></li>
+                                </ul>
+                            </li>
+                            <li class="languages">
+                                <a href="#" class="my-language" title="Eng">Eng</a>
+                                <a href="#" class="my-language-bm" title="Bm">Bm</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav pages">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Q&A</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Institutions</a></li>
+                            <li><a href="#">Scholarships</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Free Downloads</a></li>
+                            <li><a href="#">Foreign Students</a></li>
+                            <li><a href="#">Postgraduate</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header ends -->
+    <!-- coursedetail breadcrumb starts -->
+    <section id="breadcrumb">
+        <div class="container">
+            <div class="row">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="active">Institutions </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <!-- coursedetail breadcrumb ends -->
+    <!-- coursedetail starts -->
+    <section id="course-listing">
+        <div class="container">
+            <div class="row">
+                <div class="contents">
+                    <!-- left block starts -->
+                    <div class="course-left">
+                        <div class="tab-content">
+                            <!-- Alert-Search Btn starts -->
+                            <div class="tab-pane ">
+                                <div class="btn-group-vertical">
+                                    <button type="button" class="btn btn-primary">Create Email Alert</button>
+                                    <button type="button" class="btn btn-primary">Save This Search</button>
+                                    <button type="button" class="btn btn-primary">Draw Your Search</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Alert-Search Btn end -->
+                        <div class="tab-content">
+                            <div class="main-refine">
+                                <!--Refine your results start-->
+                                <div class="re-Icon">
+                                    <h3 class="refine">Refine your results</h3>
+                                    <img src="img/Course-listing/refresh-button.png" class="img-responsive" alt="refresh-button">
+                                </div>
+                                <hr/>
+                                <form class="form-horizontal">
+                                    <div class="has-feedback">
+                                        <input type="text" class="form-control" id="inputSuccess" placeholder="Enter course name">
+                                        <!--<span class="glyphicon glyphicon-ok "></span>-->
+                                        <img src="img/Course-listing/Enter-course-name.png" class="img-responsive form-control-feedback Enter-course-name-Icon" alt="Enter-course-name">
+                                    </div>
+                                </form>
+                                <!--Refine your results end-->
+                                <!--Level of Study start-->
+                                <hr/>
+                                <p>Level of Study</p>
+                                <div class="Level-of-Study extrScroll">
+                                    <form class="">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="o3" value="">
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span> Degree</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="o3" value="" checked>
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span> Diploma</label>
+                                        </div>
+                                        <div class="checkbox ">
+                                            <label>
+                                                <input type="checkbox" name="o3" value="">
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span> Master’s</label>
+                                        </div>
+                                        <div class="checkbox ">
+                                            <label>
+                                                <input type="checkbox" name="o3" value="">
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span>Foundation </label>
+                                        </div>
+                                        <div class="checkbox ">
+                                            <label>
+                                                <input type="checkbox" name="o3" value="">
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span>Foundation 1</label>
+                                        </div>
+                                        <div class="checkbox ">
+                                            <label>
+                                                <input type="checkbox" name="o3" value="">
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span>Foundation 2</label>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!--Level of Study end-->
+                                <!--Institution Type start-->
+                                <hr/>
+                                <p>Institution Type</p>
+                                <div class="Level-of-Study extrScroll">
+                                    <form class="">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="o3" value="">
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span> Private University</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="o3" value="" checked>
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span> Private College</label>
+                                        </div>
+                                        <div class="checkbox ">
+                                            <label>
+                                                <input type="checkbox" name="o3" value="">
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span> Public University</label>
+                                        </div>
+                                        <div class="checkbox ">
+                                            <label>
+                                                <input type="checkbox" name="o3" value="">
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span> Public University 1</label>
+                                        </div>
+                                        <div class="checkbox ">
+                                            <label>
+                                                <input type="checkbox" name="o3" value="">
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span> Public University 2</label>
+                                        </div>
+                                        <div class="checkbox ">
+                                            <label>
+                                                <input type="checkbox" name="o3" value="">
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span> Public University 3</label>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!--Institution Type end-->
+                                <hr/>
+                                <div class="" id="fees-left_Test">
+                                    <p>Fees</p>
+                                    <p class="price-lefT">
+                                        <label for="amount"></label>
+                                        <input type="text" id="amount" readonly class="price-Left-input">
+                                    </p>
+                                    <div id="slider-range"></div>
+                                </div>
+                                <!--Setara Rating start-->
+                                <hr/>
+                                <p>Setara Rating</p>
+                                <div class="Level-of-Study">
+                                    <form class="">
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="o3" value="">
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span> High</label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="o3" value="" checked>
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span> Medium</label>
+                                        </div>
+                                        <div class="radio ">
+                                            <label>
+                                                <input type="radio" name="o3" value="">
+                                                <span class="cr"><i class="cr-icon fa fa-check"></i></span> Low</label>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!--Setara Rating end-->
+                                <hr/>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- left block ends -->
+                    <!--RIGH BLOCK START-->
+                    <div class="right">
+                        <!--WHERE TO STUDY IN MALAYSIA? start-->
+                        <div class="where-to-sudy-Section col-md-12 col-sm-12 col-xs-12">
+                            <div class="Instituions-main-title clearfix">
+                                <h2><span>WHERE TO STUDY IN </span>MALAYSIA?</h2></div>
+                        </div>
+                        <!--WHERE TO STUDY IN MALAYSIA? end-->
+                        <!--private public university start-->
+                        <div class="private-public col-md-12 col-sm-12 col-xs-12">
+                            <!-- Private University section start -->
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <div class="Private-University">
+                                                <img src="img/Instituions-img/PrivateUniversity.png" class="img-responsive" alt="Private University">
+                                                <p>Private University</p>
+                                            </div>
+                                        </div>
+                                        <div class="back">
+                                            <div class="Private-University-Back">
+                                                <p><span>68</span>
+                                                    <br> Institutions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Private University section end -->
+                            <!-- Private College section start -->
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <div class="Private-University">
+                                                <img src="img/Instituions-img/Private-College.png" class="img-responsive" alt="Private University">
+                                                <p>Private College</p>
+                                            </div>
+                                        </div>
+                                        <div class="back">
+                                            <div class="Private-University-Back">
+                                                <p><span>65</span>
+                                                    <br> Institutions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Private College section end -->
+                            <!-- Public University section start -->
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <div class="Private-University">
+                                                <img src="img/Instituions-img/Public-University.png" class="img-responsive" alt="Private University">
+                                                <p>Public University</p>
+                                            </div>
+                                        </div>
+                                        <div class="back">
+                                            <div class="Private-University-Back">
+                                                <p><span>20</span>
+                                                    <br> Institutions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Public University section end -->
+                        </div>
+                        <!--private public university end-->
+                        <!--WHERE TO STUDY IN MALAYSIA? start-->
+                        <div class="where-to-sudy-Section col-md-12 col-sm-12 col-xs-12">
+                            <div class="Instituions-main-title clearfix">
+                                <h2><span>PRIVATE </span>UNIVERSITY <span class="totaliint"> (Total 68 Institutions)</span></h2></div>
+                        </div>
+                        <!--WHERE TO STUDY IN MALAYSIA? end-->
+                        <!-- UNIVERSITY DETAILS SECTION 1 START  -->
+                        <div class="private-university-Section col-md-12 col-sm-12 col-xs-12">
+                            <div class="institution-list">
+                                <div class="institution-list-top clearfix">
+                                    <figure> <img src="img/Instituions-img/Universiti-tunku-abdul.png"> </figure>
+                                    <div class="institution-list-title">
+                                        <div class="clearfix">
+                                            <div class="institute-title-rating">
+                                                <h3>
+<a href="#" title="University of Nottingham Malaysia Campus">
+University Tunku Abdul Rahman(UTAR)</a></h3>
+                                                <p class="institution-rating"> <a href="javascript:void(0);" rel="tipsy" original-title="SETARA Rating"> SETARA rating <i class="totip" rel="tipsy"></i> <img src="img/Instituions-img/star-5.png" alt="SETARA Rating"> </a></p>
+                                                <p class="location"> <a title="Semenyih" href="#" target="_blank"> Kampar and Bandar Sungai Long</a></p>
+                                            </div>
+                                            <div class="institution-list-type">
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <ul class="institution-list-meta clearfix">
+                                            <li>Courses Offered <span>73</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="complare-meta-wrap clearfix">
+                                    <ul class="complate-ul">
+                                        <li class="institution-bookmark">
+                                            <div class="favorites-wrap"> <a href="javascript:void(0)" class="institution-favorites login-btn">Add to bookmark</a></div>
+                                        </li>
+                                        <li class="institution-complare">
+                                            <div class="reqinfo_link" id="reqinfo489"> <a href="#" id="489" title="University of Nottingham Malaysia Campus">Request Info</a></div>
+                                        </li>
+                                        <li class="institution-more-btn"><a href="#" title="More">View all courses</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- UNIVERSITY DETAILS SECTION 1 END  -->
+                        <!-- UNIVERSITY DETAILS SECTION 2 START  -->
+                        <div class="private-university-Section col-md-12 col-sm-12 col-xs-12">
+                            <div class="institution-list">
+                                <div class="institution-list-top clearfix">
+                                    <figure> <img src="img/Instituions-img/Universiti-tunku-abdul.png"> </figure>
+                                    <div class="institution-list-title">
+                                        <div class="clearfix">
+                                            <div class="institute-title-rating">
+                                                <h3>
+<a href="#" title="University of Nottingham Malaysia Campus">
+University Tunku Abdul Rahman(UTAR)</a></h3>
+                                                <p class="institution-rating"> <a href="javascript:void(0);" rel="tipsy" original-title="SETARA Rating"> SETARA rating <i class="totip" rel="tipsy"></i> <img src="img/Instituions-img/star-5.png" alt="SETARA Rating"> </a></p>
+                                                <p class="location"> <a title="Semenyih" href="#" target="_blank"> Kampar and Bandar Sungai Long</a></p>
+                                            </div>
+                                            <div class="institution-list-type">
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <ul class="institution-list-meta clearfix">
+                                            <li>Courses Offered <span>73</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="complare-meta-wrap clearfix">
+                                    <ul class="complate-ul">
+                                        <li class="institution-bookmark">
+                                            <div class="favorites-wrap"> <a href="javascript:void(0)" class="institution-favorites login-btn">Add to bookmark</a></div>
+                                        </li>
+                                        <li class="institution-complare">
+                                            <div class="reqinfo_link" id="reqinfo489"> <a href="#" id="489" title="University of Nottingham Malaysia Campus">Request Info</a></div>
+                                        </li>
+                                        <li class="institution-more-btn"><a href="#" title="More">View all courses</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- UNIVERSITY DETAILS SECTION 2 END  -->
+                        <!-- UNIVERSITY DETAILS SECTION 3 START  -->
+                        <div class="private-university-Section col-md-12 col-sm-12 col-xs-12">
+                            <div class="institution-list">
+                                <div class="institution-list-top clearfix">
+                                    <figure> <img src="img/Instituions-img/Universiti-tunku-abdul.png"> </figure>
+                                    <div class="institution-list-title">
+                                        <div class="clearfix">
+                                            <div class="institute-title-rating">
+                                                <h3>
+<a href="#" title="University of Nottingham Malaysia Campus">
+University Tunku Abdul Rahman(UTAR)</a></h3>
+                                                <p class="institution-rating"> <a href="javascript:void(0);" rel="tipsy" original-title="SETARA Rating"> SETARA rating <i class="totip" rel="tipsy"></i> <img src="img/Instituions-img/star-5.png" alt="SETARA Rating"> </a></p>
+                                                <p class="location"> <a title="Semenyih" href="#" target="_blank"> Kampar and Bandar Sungai Long</a></p>
+                                            </div>
+                                            <div class="institution-list-type">
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <ul class="institution-list-meta clearfix">
+                                            <li>Courses Offered <span>73</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="complare-meta-wrap clearfix">
+                                    <ul class="complate-ul">
+                                        <li class="institution-bookmark">
+                                            <div class="favorites-wrap"> <a href="javascript:void(0)" class="institution-favorites login-btn">Add to bookmark</a></div>
+                                        </li>
+                                        <li class="institution-complare">
+                                            <div class="reqinfo_link" id="reqinfo489"> <a href="#" id="489" title="University of Nottingham Malaysia Campus">Request Info</a></div>
+                                        </li>
+                                        <li class="institution-more-btn"><a href="#" title="More">View all courses</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- UNIVERSITY DETAILS SECTION 3 END  -->
+                        <!--page location section end-->
+                        <div class="pageLocation col-md-12 col-sm-12 col-xs-12">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                                <button type="button" class="btn btn-primary">1</button>
+                                <button type="button" class="btn btn-primary">2</button>
+                                <button type="button" class="btn btn-primary">3</button>
+                                <button type="button" class="btn btn-primary">4</button>
+                                <button type="button" class="btn btn-primary">...</button>
+                                <button type="button" class="btn btn-primary">10</button>
+                                <button type="button" class="btn btn-primary"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <!--page location section end-->
+                    </div>
+                    <!--RIGH BLOCK END-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- coursedetail ends -->
+    <!-- footer starts -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 footer-top">
+                    <div class="newsletter-wrapper">
+                        <p>Get our newsletter. Stay ahead of the pack.</p>
+                        <form class="newsletter-form validate" action="//afterschool.us14.list-manage.com/subscribe/post?u=dd5381160a0c43825ba234938&amp;id=8507b8f025" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate">
+                            <input type="text" class="input-fld" placeholder="Enter your email ID" name="EMAIL">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                        <ul class="social-icons clearfix">
+                            <li><a href="https://www.facebook.com/Afterschool.my" class="fb" title="Facebook">Facebook</a></li>
+                            <li><a href="https://twitter.com/afterschool_my" class="tw" title="Twitter">Twitter</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu-wrap">
+                        <div class="footer-menu-title">Get In touch</div>
+                        <div class="footer-menu-2">
+                            <ul id="menu-footer-menu-2" class="menu">
+                                <li> <a href="#">About Us</a></li>
+                                <li><a href="#">Advertise</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="foo-social-icons">
+                        <div class="footer-menu-title">Directory</div>
+                        <div class="footer-menu">
+                            <ul id="menu-footer-menu" class="menu">
+                                <li><a title="Q&amp;A" href="#">Q&amp;A</a></li>
+                                <li><a title="Scholarships" href="#">Scholarships</a></li>
+                                <li><a title="News" href="#">News</a></li>
+                                <li><a title="SPM Resources" href="#">SPM Resources</a></li>
+                                <li><a title="Institutions" href="#">Institutions</a></li>
+                                <li><a title="Foreign Students" href="#">Foreign Students</a></li>
+                                <li><a title="Courses" href="#">Courses</a></li>
+                                <li><a title="Careers" href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 footer-bottom">
+                    <p class="copy-rights">Copyright &copy; 2009-2017 Afterschool.my. All Rights Reserved.
+                        <a href="javascript:void(0)">Privacy Terms &amp; Agreement</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+    <!-- scrolldown to show top arrow starts -->
+    <div id="backtotop"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+    <!-- scrolldown to show top arrow ends -->
+    <!-- common script starts -->
+    <!--   <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- custom scripts -->
+    <script type="text/javascript" src="js/lightslider.js"></script>
+    <script type="text/javascript" src="js/responsive-scrolling-tabs.js"></script>
+    <!-- POPOVER SCRIPT  -->
+    <script src="js/jquery.webui-popover.js"></script>
+    <!-- CUSTOME POPOVER SCRIPT -->
+    <script type="text/javascript">
+    $("[data-toggle=popover]").popover({
+        html: true,
+        content: function() {
+            return $('#popover-content').html();
+        }
+    });
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        /*header-cta carouselstarts*/
+        $('.carousel').carousel({
+            interval: false
+        });
+        /*header-cta carousel ends*/
+
+        /*script for subject spm slider starts */
+        $("#spm-slider").lightSlider({
+            item: 5,
+            loop: true,
+            auto: false,
+            slideMargin: 70,
+            responsive: [{
+                breakpoint: 1199,
+                settings: {
+                    item: 4,
+                    slideMove: 1
+                }
+            }, {
+                breakpoint: 992,
+                settings: {
+                    item: 4,
+                    slideMove: 1
+                }
+            }, {
+                breakpoint: 767,
+                settings: {
+                    item: 2,
+                    slideMove: 1,
+                    slideMargin: 50
+                }
+            }]
+        });
+        /*script for subject spm slider ends */
+
+        /*script for employers slider starts */
+        $("#employers-slider").lightSlider({
+            item: 6,
+            loop: true,
+            auto: false,
+            slideMargin: 40,
+            responsive: [{
+                breakpoint: 992,
+                settings: {
+                    item: 4,
+                    slideMove: 1
+                }
+            }, {
+                breakpoint: 767,
+                settings: {
+                    item: 2,
+                    slideMargin: 20,
+                    slideMove: 1
+                }
+            }]
+        });
+        /*script for employers slider ends */
+
+        /*script for Professional arrow toggle starts*/
+        $('.collapse').on('shown.bs.collapse', function() {
+            $(this).parent().find(".glyphicon-plus").removeClass("glyphicon-plus").addClass(
+                "glyphicon-minus");
+        }).on('hidden.bs.collapse', function() {
+            $(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").addClass(
+                "glyphicon-plus");
+        });
+        /*script for Professional arrow toggle ends*/
+
+        /*script for coursedetail nav-tabs scroll starts*/
+        $(function() {
+            $('#coursedetail-nav-tabs a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                    location.hostname ==
+                    this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top - 50
+                        }, 2000);
+                        return false;
+                    }
+                }
+            });
+        });
+        /*script for coursedetail nav-tabs scroll ends*/
+
+        /*script for coursedetail nav-tabs fixed top starts*/
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 700) {
+                $("#coursedetail").addClass("coursedetail-fixed");
+            } else {
+                $("#coursedetail").removeClass("coursedetail-fixed");
+            }
+        });
+        /*script for coursedetail nav-tabs fixed top ends*/
+
+        /*script for coursedetail nav-tabs add active class starts*/
+        $('#coursedetail-nav-tabs li a').click(function(e) {
+            $('#coursedetail-nav-tabs li').removeClass('active')
+            $(this).parent('li').addClass('active')
+        });
+        /*script for coursedetail nav-tabs add active class starts ends*/
+
+        /*script for scrolldown to show top arrow starts*/
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 500) {
+                $("#backtotop").addClass("active");
+            } else {
+                $("#backtotop").removeClass("active");
+            }
+        });
+        $('#backtotop').on("click", function() {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 1000);
+            return false;
+        });
+        /*script for scrolldown to show top arrow ends*/
+
+        /*script for responsive-scrolling-tabs starts*/
+        $('#coursedetail-nav-tabs').scrollingTabs();
+        /*script for responsive-scrolling-tabs ends*/
+
+    });
+    </script>
+    <!-- script ends -->
+    <!--PRICE RANGE SLIDER-->
+    <script src="js/jquery-ui-price-range.js"></script>
+    <!-- PRICE RANGE LEFT SIDE SECTION START -->
+    <script>
+    $(function() {
+        $("#slider-range").slider({
+            range: true,
+            min: 0,
+            max: 50000,
+            values: [0, 50000],
+            slide: function(event, ui) {
+                $("#amount").val("RM " + ui.values[0] + " - RM " + ui.values[1]);
+            }
+        });
+        $("#amount").val("RM " + $("#slider-range").slider("values", 0) +
+            " - RM " + $("#slider-range").slider("values", 1));
+    });
+    </script>
+    <!-- PRICE RANGE LEFT SIDE SECTION END -->
+    <!-- PRICE RANGE RIGHT SIDE SECTION START -->
+    <script>
+    $(function() {
+        $("#slider-range1").slider({
+            range: true,
+            min: 0,
+            max: 50000,
+            values: [0, 50000],
+            slide: function(event, ui) {
+                $("#amount1").val("RM " + ui.values[0] + " - RM " + ui.values[1]);
+            }
+        });
+        $("#amount1").val("RM " + $("#slider-range1").slider("values", 0) +
+            " - RM " + $("#slider-range1").slider("values", 1));
+    });
+    </script>
+    <!-- PRICE RANGE RIGHT SIDE SECTION END -->
+    <script>
+    $(document).ready(function() {
+        $("#morecourses").on("hide.bs.collapse", function() {
+            $(".viewmore").html('click to view 1 more courses');
+        });
+        $("#morecourses").on("show.bs.collapse", function() {
+            $(".viewmore").html('click to view less');
+        });
+    });
+    </script>
+    <script>
+    $(document).ready(function() {
+        $("#mast-hide").on("hide.bs.collapse", function() {
+            $(".viewmoreSection").html('click to view 1 more courses');
+        });
+        $("#mast-hide").on("show.bs.collapse", function() {
+            $(".viewmoreSection").html('click to view less');
+        });
+    });
+    </script>
+</body>
+
+</html>

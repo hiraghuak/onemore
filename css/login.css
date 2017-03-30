@@ -1,0 +1,219 @@
+/*top-strip starts*/
+#top-strip{
+	background-color: #01a0c1;
+	height: 75px;
+}
+/*top-strip ends*/
+
+/*login form starts*/
+#login{
+    padding: 50px 0;
+    background-color: #eaeaea;
+}
+#login form{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px 54px 22px 54px;
+}
+#login form i.close{
+    float: right;
+    color: rgba(124, 124, 124, 0.42);
+    opacity: 1;
+    font-size: 20px;
+    left: 38px;
+    top: -26px;
+    position: relative;
+}
+#login form h2{
+    font-size: 32px;
+    color: #01a0c1;
+    text-align: center;
+    margin: 20px 0;
+    font-family: "robotobold",sans-serif;
+}
+#login form .retrieve {
+    font-size: 18px;
+    font-family: "robotoregular",sans-serif;
+    color: #3e3e3e;
+    line-height: 22px;
+}
+#login form .form-group{
+    margin-bottom: 25px;
+    padding-top: 25px;
+}
+#login form .form-group:last-child{
+    margin-bottom: 0;
+}
+#login form .form-control{
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 6px 2px 16px;
+    font-size: 18px;
+    line-height: 16px;
+    color: #999999;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+    font-family: "robotoregular",sans-serif;
+}
+/*placeholder starts*/
+::-webkit-input-placeholder {
+    color: #999999!important;
+}
+:-moz-placeholder {
+    color: #999999!important;
+}
+::-moz-placeholder {
+    color: #999999!important;
+}
+:-ms-input-placeholder {
+    color: #999999!important;
+}
+/*placeholder ends*/
+
+#login form .bottom{
+    padding: 5px 10px 0px;
+    margin-bottom: 25px
+}
+#login form .bottom button{
+    background-color: #c4d54a;
+    border: 0;
+    color: #ffffff;
+    height: 38px;
+    padding: 6px 45px;
+    line-height: 16px;
+    font-size: 22px;
+    font-family: "robotobold",sans-serif;
+    margin: 12px 0 0;
+}
+#login form .bottom p{
+    color: #666666;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 0 15px;
+    text-align: right;
+}
+#login form .bottom p>a{
+    color: #01a0c1;
+}
+#login form .social p{
+    font-size: 24px;
+    line-height: 16px;
+    color: #000101;
+    font-family: "robotomedium",sans-serif;
+    padding: 14px 30px 0 0;
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+}
+#login form .social .img-block{
+    width: 50%;
+    display: inline;
+}
+#login form .social .img-block img{
+    display: inline-block;
+    margin-right: 12px;
+    margin-top: -12px;
+}
+
+/*signup block starts*/
+#login form.signup .form-group {
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+#login form.signup .form-group.select{
+    padding-top: 8px;
+}
+#login form.signup select.form-control{
+    padding: 2px 2px 16px;
+    height: auto;
+}
+#login form.signup .bottom {
+    padding: 15px 10px 40px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 25px;
+}
+#login form.signup .bottom p {
+    padding: 4px 0 0;
+}
+/*signup block ends*/
+
+
+/*media queries*/
+@media (min-width : 992px) and (max-width : 1199px) {
+    #login form{
+        width: 75%;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+    #login form{
+        width: 85%;
+    }
+    #login form .retrieve {
+        font-size: 16px;
+    }
+}
+
+@media (max-width : 767px) {
+    #login {
+        padding: 30px 0;
+    }
+    #login form .retrieve {
+        font-size: 14px;
+    }
+    #login form{
+        width: 95%;
+        padding: 20px;
+    }
+    #login form i.close {
+        left: 12px;
+        top: -12px;
+        font-size: 16px;
+    }
+    #login form h2 {
+        font-size: 22px;
+    }
+    #login form .form-group {
+        margin-bottom: 12px;
+        padding-top: 12px;
+    }
+    #login form .form-control {
+        padding: 6px 2px 10px;
+        font-size: 14px;
+        line-height: 16px;
+        height: 32px;
+    }
+    #login form .bottom button {
+        height: 34px;
+        padding: 6px 42px;
+        line-height: 16px;
+        font-size: 16px;
+        margin: 8px auto 25px;
+        display: block;
+    }
+    #login form .bottom p {
+        font-size: 14px;
+        line-height: 12px;
+        margin: 0 0 12px;
+        text-align: center;
+    }
+    #login form .bottom .forget{
+        float: none!important;
+    }
+    #login form .bottom {
+        padding: 5px 10px 0px;
+        margin-bottom: 12px;
+    }
+    #login form .social p {
+        font-size: 16px;
+        padding: 18px 25px 0 0;
+    }
+    #login form .social .img-block img {
+        margin-top: -8px;
+    }
+}
+/*login form ends*/

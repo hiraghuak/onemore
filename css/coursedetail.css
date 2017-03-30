@@ -1,0 +1,1754 @@
+ /*coursedetail top-strip starts*/
+#top-strip{
+	background-color: #01a0c1;
+	height: 75px;
+}
+/*coursedetail top-strip ends*/
+
+/*coursedetail breadcrumb starts*/
+#breadcrumb{
+    background-color: #eaeaea;
+}
+.breadcrumb{
+    padding: 15px 0 18px;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0;
+}
+.breadcrumb li.active{
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px; 
+}
+.breadcrumb a{
+    color: #01a0c1;
+    font-size: 14px;
+    line-height: 16px; 
+}
+/*coursedetail breadcrumb ends*/
+
+/*coursedetail starts*/
+#coursedetail{
+	background-color: #eaeaea;
+	padding: 0 0 60px;
+}
+#coursedetail .header{
+    background-color: #01a0c1;
+    padding: 15px; 
+    width: 100%;
+    float: left;
+}
+#coursedetail .header .left{
+    width: 61%;
+    float: left;
+    margin-right: 1%;
+}
+#coursedetail .header .right{
+    width: 38%;
+    float: left;
+    text-align: center;
+    padding: 50px 0 35px 45px;
+}
+#coursedetail .header .right h4{
+    color: #ffffff;
+    font-size: 21px;
+    margin: 0 0 28px;
+    font-family: "robotolight",sans-serif;
+    font-style: italic;
+}
+#coursedetail .header .right h1{
+    margin: 0 0 28px;
+    color: #ffffff;
+    font-family: "robotolight",sans-serif;
+}
+#coursedetail .header .right .form-control{
+    height: 44px;
+    width: 75%;
+    margin: 0 auto 20px;
+    border: 1px solid #cecece;
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+    color: #858585;
+}
+#coursedetail .header .right button.continue {
+    height: 36px;
+    width: 65%;
+    text-transform: uppercase;
+    border: 0;
+    background-color: #bed63a;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 4px 20px;
+    margin: 0;
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-radius: 0;
+}
+#coursedetail .header .right-next{
+    width: 38%;
+    float: left;
+    padding: 0 15px 0;
+}
+#coursedetail .header .right-next h3{
+    color: #ffffff;
+    font-size: 21px;
+    margin: 0;
+    font-family: "robotolight",sans-serif;
+    font-style: italic;
+}
+#coursedetail .header .right-next .carousel-inner>.item{
+    width: 100%!important;
+    float: left!important;
+    margin: 0!important;
+    padding: 0!important;
+    text-align: left!important
+}
+#coursedetail .header .right-next .media{
+    margin: 10px 0 8px;
+}
+#coursedetail .header .right-next .media .media-left{
+    vertical-align: top;
+    padding: 8px 10px 0 0;
+}
+#coursedetail .header .right-next .media .media-left>span{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "robotolight",sans-serif;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px 12px;
+}
+#coursedetail .header .right-next .media .media-body h4{
+    color: #ffffff;
+    margin: 5px 0 15px;
+    font-family: "robotomedium",sans-serif;  
+    font-size: 18px!important;
+    font-style: normal!important;
+}
+#coursedetail .header .right-next .media .media-body a{
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    text-decoration: underline;
+    margin: 0 0 5px;
+    padding-left: 35px;
+    font-family: "robotolight",sans-serif;
+}
+#coursedetail .header .right-next .media .media-body a.view{
+    margin: 6px 0 0;
+    padding-left: 0;
+    font-family: "robotoregular",sans-serif;
+}
+#coursedetail .header .right-next .carousel-control.left,
+#coursedetail .header .right-next .carousel-control.right{
+    width: auto;
+    float: none;
+    margin: 0 6px;
+    background-image: none;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 1;
+    font-size: 14px;
+    text-shadow: 0 0 0;
+    border: 1px solid #fff;
+    padding: 3px 20px;
+    border-radius: 3px;
+    font-family: "robotolight",sans-serif;
+}
+#coursedetail .header .right-next a.back{
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    text-decoration: underline;
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: center;
+}
+
+/*nav tabs starts*/
+#coursedetail .nav-tabs {
+    background-color: #ffffff;
+    border: 0;
+    padding: 0 15px;
+    margin: 25px 0;
+}
+#coursedetail .scrtabs-tabs-fixed-container {
+    height: auto;
+}
+#coursedetail.coursedetail-fixed #coursedetail-nav-tabs.nav-tabs {
+    background-color: #01a0c1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    border: 0;
+    text-align: center;
+    margin: 0;
+}
+#coursedetail.coursedetail-fixed #coursedetail-nav-tabs.nav-tabs>li{
+    float: none;
+    display: inline-block;
+}
+#coursedetail.coursedetail-fixed #coursedetail-nav-tabs.nav-tabs>li>a {
+    color: #fefeff;
+    font-size: 16px;
+    padding: 12px 15px 15px;
+}
+#coursedetail .nav-tabs>li.active>a {
+    border-bottom: 3px solid #01a0c1;
+}
+#coursedetail .nav-tabs>li>a {
+    margin-right: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 17px;
+    color: #000000;
+    padding: 20px 15px 15px;
+    background-color: transparent;
+    line-height: 20px;
+}
+/*nav tabs ends*/
+
+#coursedetail .contents{
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+/*left block starts*/
+#coursedetail .contents .left{
+    width: 73%;
+    float: left;
+    margin: 0 2% 0 0;  
+}
+#coursedetail .contents .left .tab-pane {
+    padding: 25px;
+    margin: 0 0 15px;
+    background-color: #fff;
+    display: block;
+}
+#coursedetail .contents .left .tab-pane h2.heading{
+    color: #01a0c1;
+    font-size: 28px;
+    margin: 0 0 15px;
+    line-height: 21px;
+    border-bottom: 1px solid #ebebeb; 
+    font-family: "robotolight",sans-serif;  
+    text-transform: uppercase;
+}
+#coursedetail .contents .left .tab-pane h2.heading>b{
+    font-family: "robotobold",sans-serif;
+}
+#coursedetail .contents .left .tab-pane h2.heading p.line {
+    border-bottom: 3px solid #01a0c1;
+    width: 65px;
+    margin: 0 0 -2px!important;
+    padding: 16px 0 0;
+}
+
+/*overview tab starts*/
+#coursedetail .contents .left .tab-pane#Overview h2.heading{
+    margin: 0 0 25px;
+}
+#coursedetail .contents .left .tab-pane p.overleft{
+    color: #808080;
+    font-size: 16px;
+    margin: 0 5% 0 0;
+    line-height: 24px;
+    width: 65%;
+    float: left;
+    text-align: justify;
+}
+#coursedetail .contents .left .tab-pane .overright{
+    float: left;
+    width: 30%;
+}
+#coursedetail .contents .left .tab-pane .overright .top{
+    background-color: #f4f4f4;
+    padding: 20px 25px;
+    margin: 0 0 15px;
+    float: left;
+    width: 100%;
+}
+#coursedetail .contents .left .tab-pane .overright .top .dip,
+#coursedetail .contents .left .tab-pane .overright .top .deg{
+    width: 50%;
+    float: left;
+}
+#coursedetail .contents .left .tab-pane .overright .top .deg{
+    padding-left: 15px;
+}
+#coursedetail .contents .left .tab-pane .overright .top h5{
+    font-size: 14px;
+    color: #808080;
+    margin: 0 0 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#coursedetail .contents .left .tab-pane .overright .top p{
+    color: #808080;
+    font-size: 14px;
+}
+#coursedetail .contents .left .tab-pane .overright .top h6{
+    font-size: 26px;
+    font-family: "robotobold",sans-serif;
+    color: #808080;
+    margin: 5px 0 0 5px;
+}
+#coursedetail .contents .left .tab-pane .overright .top .dip .media-body{
+    border-right: 1px solid #888888;
+}
+#coursedetail .contents .left .tab-pane .overright button{
+    width: 100%;
+    background-color: #c4d54b;
+    margin: 0 0 14px;
+    border: 0;
+    font-size: 15px;
+    color: #ffffff;
+    height: 36px;
+    padding: 6px 12px;
+    text-align: center;
+}
+#coursedetail .contents .left .tab-pane .overright button.ask{
+    background-color: #01a0c1;
+    text-transform: uppercase;
+}
+/*overview tab ends*/
+
+/*entry requirements tab starts*/
+#coursedetail .contents .left .tab-pane#Entry .nav-tabs {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#coursedetail .contents .left .tab-pane#Entry .nav-tabs>li{
+    width: 25%;
+}
+#coursedetail .contents .left .tab-pane#Entry .nav-tabs>li>a {
+    margin-right: 10px;
+    border: 0;
+    border-radius: 0;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 6px 12px;
+    background-color: #01a0c1;
+    line-height: 20px;
+    height: 32px;
+    text-align: center;
+}
+#coursedetail .contents .left .tab-pane#Entry .nav-tabs>li.active>a {
+    background-color: #000000;
+}
+#coursedetail .contents .left .tab-pane#Entry .nav-tabs>li>a.last {
+    margin-right: 0;
+}
+#coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane {
+    padding: 30px 20px;
+    margin: 0;
+    background-color: transparent;
+    display: none;
+}
+#coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane.active {
+    display: block;
+}
+#coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane p{
+    color: #808080;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 25px;    
+}
+#coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane p:last-child{
+    margin: 0;    
+}
+#coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane p>b{
+    font-family: "robotobold",sans-serif;
+    color: #000000;
+}
+#coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane h5{
+    color: #01a0c1;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    font-family: "robotobold",sans-serif;
+}
+/*entry requirements tab ends*/
+
+/*Subject tab starts*/
+#coursedetail .contents .left .tab-pane#Subject p{
+    font-size: 16px;
+    color: #808080;
+    margin: 0 0 22px;
+    line-height: 24px;
+}
+#coursedetail .contents .left .tab-pane#Subject .spm{
+    margin: 0 0 30px;
+    padding: 0 20px 35px;
+    border-bottom: 1px solid #b2b2b2;
+}
+#coursedetail .contents .left .tab-pane#Subject .spm h4{
+    color: #808080;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 35px;
+    font-family: "robotobold",sans-serif;   
+}
+#coursedetail .contents .left .tab-pane#Subject .spm ul{
+    padding: 0!important;
+}
+#coursedetail .contents .left .tab-pane#Subject .spm ul>li:last-child{
+    margin: 0!important
+}
+#coursedetail .contents .left .tab-pane#Subject .spm ul>li .img-block{
+    border: 1px solid #e2e2e2;
+    border-radius: 50%;
+    padding: 30px 15px;
+    height: 100px;
+    width: 100px!important;
+}
+#coursedetail .contents .left .tab-pane#Subject .spm ul>li p{
+    font-size: 14px;
+    color: #808080;
+    margin: 0;
+    line-height: 24px;
+    padding: 8px 0 0;
+    text-align: center; 
+}
+#coursedetail .contents .left .tab-pane#Subject .college{
+    margin: 0 0 10px;
+    padding: 0 20px 35px;
+    border-bottom: 1px solid #b2b2b2;
+    float: left;
+    width: 100%;
+}
+#coursedetail .contents .left .tab-pane#Subject .college h4{
+    color: #808080;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 0 35px;
+    font-family: "robotobold",sans-serif;   
+}
+#coursedetail .contents .left .tab-pane#Subject .college ul{
+    padding: 0;
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+#coursedetail .contents .left .tab-pane#Subject .college ul>li{
+    list-style-type: none;
+    float: left;
+    width: 12%;
+    margin-right: 70px;
+}
+#coursedetail .contents .left .tab-pane#Subject .college ul>li .img-block{
+    border: 1px solid #e2e2e2;
+    border-radius: 50%;
+    padding: 30px 15px;
+    height: 100px;
+    width: 100px!important;
+}
+#coursedetail .contents .left .tab-pane#Subject .college ul>li p{
+    font-size: 14px;
+    color: #808080;
+    margin: 0;
+    line-height: 16px;
+    padding: 8px 0 0;
+    text-align: center; 
+}
+#coursedetail .contents .left .tab-pane#Subject .college ul>li.more{
+    border: 1px solid #e2e2e2;
+    border-radius: 50%;
+    padding: 42px 12px;
+    height: 125px;
+    width: 125px;
+    background-color: #c4d54b;
+    text-align: center;
+    margin: -15px 0 0;
+    line-height: 18px;
+}
+#coursedetail .contents .left .tab-pane#Subject .college ul>li.more>a,
+#coursedetail .contents .left .tab-pane#Subject .college ul>li.more>a:hover{
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+#coursedetail .contents .left .tab-pane#Subject .lSAction > a{
+    width: 28px;
+    display: block;
+    top: 15%;
+    height: 50px;
+    background-image: url(../img/coursedetail/controls.png);
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    margin-top: 0;
+    opacity: 1;
+}
+#coursedetail .contents .left .tab-pane#Subject .lSAction > .lSPrev{
+    background-position: 0 0;
+    left: 0;
+}
+#coursedetail .contents .left .tab-pane#Subject .lSAction > .lSNext{
+    background-position: -20px 0px;
+    right: 0;
+}
+/*Subject tab ends*/
+
+/*Skills tab starts*/
+#coursedetail .contents .left .tab-pane#Skills p {
+    font-size: 16px;
+    color: #808080;
+    margin: 0 0 30px;
+    line-height: 24px;
+}
+#coursedetail .contents .left .tab-pane#Skills .common{
+    border-bottom: 1px solid #b2b2b2;
+    margin: 0 0 20px;
+    padding: 0 30px 0 20px;
+}
+#coursedetail .contents .left .tab-pane#Skills .common:last-child{
+    margin: 0 0 5px;
+}
+#coursedetail .contents .left .tab-pane#Skills .common .img-block{
+    border: 1px solid #e2e2e2;
+    border-radius: 50%;
+    padding: 30px 15px;
+    height: 100px;
+    width: 100px!important;
+    margin-right: 10px;
+}
+#coursedetail .contents .left .tab-pane#Skills .common h4{
+    color: #808080;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    font-family: "robotobold",sans-serif;   
+}
+#coursedetail .contents .left .tab-pane#Skills .common p{
+    font-size: 16px;
+    color: #808080;
+    margin: 0 0 30px;
+    line-height: 24px; 
+    text-align: justify;
+}
+/*Skills tab ends*/
+
+/*left-ad starts*/
+#coursedetail .contents .left .left-ad{
+    padding: 0;
+    margin-bottom: 15px;
+}
+/*left-ad ends*/
+
+/*Employers tab starts*/
+#coursedetail .contents .left .tab-pane#Employers h5{
+    padding: 0 12px;
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    line-height: 24px; 
+    font-family: "robotobold",sans-serif;  
+}
+#coursedetail .contents .left .tab-pane#Employers ul{
+    margin: 25px 12px 25px;
+    float: left;
+    width: 100%;
+}
+#coursedetail .contents .left .tab-pane#Employers ul>li:last-child{
+    margin: 0;
+}
+#coursedetail .contents .left .tab-pane#Employers ul>li .img-block{
+    float: left;
+    width: 100%;
+}
+#coursedetail .contents .left .tab-pane#Employers p{
+    font-size: 16px;
+    color: #808080;
+    margin: 0 0 15px;
+    line-height: 24px; 
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#coursedetail .contents .left .tab-pane#Employers .lSAction > a{
+    width: 28px;
+    display: block;
+    top: 30%;
+    height: 50px;
+    background-image: url(../img/coursedetail/controls.png);
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    margin-top: 0;
+    opacity: 1;
+}
+#coursedetail .contents .left .tab-pane#Employers .lSAction > .lSPrev{
+    background-position: 0 0;
+    left: 0;
+}
+#coursedetail .contents .left .tab-pane#Employers .lSAction > .lSNext{
+    background-position: -20px 0px;
+    right: 0;
+}
+/*Employers tab ends*/
+
+/*Salary tab starts*/
+#coursedetail .contents .left .tab-pane#Salary .info{
+    float: left;
+    width: 100%;
+    padding: 0 5px;
+    margin: 10px 0 0;
+}
+#coursedetail .contents .left .tab-pane#Salary .info>li{
+    list-style-type: none; 
+    float: left;
+    margin-right: 20px;
+}
+#coursedetail .contents .left .tab-pane#Salary .info>li:last-child{
+    margin: 0;
+}
+#coursedetail .contents .left .tab-pane#Salary .info>li>img{
+    padding: 18px 0 0;
+}
+#coursedetail .contents .left .tab-pane#Salary .info>li h4 {
+    color: #808080;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    font-family: "robotobold",sans-serif;
+}
+#coursedetail .contents .left .tab-pane#Salary .info>li p {
+    font-size: 16px;
+    color: #808080;
+    margin: 0;
+    line-height: 24px;
+}
+#coursedetail .contents .left .tab-pane#Salary .common{
+    margin: 30px 0 10px;
+    padding: 15px 20px;
+    background-color: #f4f4f4;
+}
+#coursedetail .contents .left .tab-pane#Salary .common .media-left .img-block{
+    background-color: #e3e3e3;
+    height: 65px;
+    width: 65px;
+    padding: 12px 8px 2px;
+}
+#coursedetail .contents .left .tab-pane#Salary .common h4 {
+    color: #808080;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    font-family: "robotobold",sans-serif;
+}
+#coursedetail .contents .left .tab-pane#Salary .common p {
+    font-size: 16px;
+    color: #808080;
+    margin: 0;
+    line-height: 24px;
+    text-align: justify;
+}
+/*Salary tab ends*/
+
+/*Professional tab starts*/
+#coursedetail .contents .left .tab-pane#Professional h5 {
+    padding: 0 12px;
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    line-height: 24px;
+    font-family: "robotobold",sans-serif;
+}
+#coursedetail .contents .left .tab-pane#Professional #accordion{
+    margin: 20px 0 10px;
+}
+#coursedetail .contents .left .tab-pane#Professional .panel{
+    margin: 0 0 15px;
+}
+#coursedetail .contents .left .tab-pane#Professional .panel-heading{
+    padding: 21px 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #eaeaea;
+}
+#coursedetail .contents .left .tab-pane#Professional .panel-heading a,
+#coursedetail .contents .left .tab-pane#Professional .panel-heading a:hover{
+    font-size: 16px;
+    color: #808080;
+    margin: 0;
+    line-height: 24px;  
+    text-decoration: none;
+}
+#coursedetail .contents .left .tab-pane#Professional .panel-heading a>span.number{
+    color: #000;
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 4px 11px;
+    margin-right: 12px;
+}
+#coursedetail .contents .left .tab-pane#Professional .panel-heading a>span{
+    color: #a4a4a4;
+    font-size: 10px;
+    padding: 6px 0 0;
+}
+#coursedetail .contents .left .tab-pane#Professional .panel-body{
+    padding: 15px 12px 0;
+}
+#coursedetail .contents .left .tab-pane#Professional .panel-body p {
+    font-size: 16px;
+    color: #808080;
+    margin: 0 0 25px;
+    line-height: 24px;
+    text-align: justify;
+}
+#coursedetail .contents .left .tab-pane#Professional .panel-body p:last-child {
+    margin: 0;
+}
+#coursedetail .contents .left .tab-pane#Professional .panel-body h5 {
+    color: #808080;
+    margin: 0;
+    line-height: 24px;
+    font-family: "robotobold",sans-serif;
+    padding: 0;
+}
+/*Professional tab ends*/
+
+/*News tab starts*/
+#coursedetail .contents .left .tab-pane#News .common{
+    border-bottom: 1px solid #b2b2b2;
+    padding: 0 5px 25px;
+    margin: 0 0 25px;
+    float: left;
+    width: 100%;
+}
+#coursedetail .contents .left .tab-pane#News .common.first{
+    padding: 10px 5px 25px;
+}
+#coursedetail .contents .left .tab-pane#News .common:last-child{
+    margin: 0 0 10px;
+}
+#coursedetail .contents .left .tab-pane#News .common .left{
+    margin-right: 22px;
+    width: 47%;
+    float: left;
+    height: 105px;
+}
+#coursedetail .contents .left .tab-pane#News .common .right{
+    margin-left: 22px;
+    width: 47%;
+    float: left;
+    height: 105px;
+}
+#coursedetail .contents .left .tab-pane#News .common a {
+    color: #000000;
+    margin: 0;
+    line-height: 18px;
+    font-family: "robotobold",sans-serif;
+    padding: 0 0 5px;
+    font-size: 14px;
+    float: left;
+}
+#coursedetail .contents .left .tab-pane#News .common a:hover {
+    color: #01a0c1;
+    text-decoration: none;
+}
+#coursedetail .contents .left .tab-pane#News .common p {
+    color: #808080;
+    margin: 0;
+    line-height: 18px;
+    padding: 0 0 8px;
+    font-size: 14px;
+    float: left;
+    width: 100%;
+}
+#coursedetail .contents .left .tab-pane#News .common .social-icons>a:hover>i{
+    color: #01a0c1;
+}
+#coursedetail .contents .left .tab-pane#News .common .social-icons>a>i{
+    font-size: 15px;
+    color: #c7c7c7;
+    padding: 0 6px 0 5px;
+}
+#coursedetail .contents .left .tab-pane#News .common .right.cta{
+    background-color: #c4d54b;
+    padding: 1px 0;
+}
+#coursedetail .contents .left .tab-pane#News .common .right.cta .media-left{
+    background-color: #ffffff;
+    padding: 20px 25px 19px;
+    border: 1px solid #b1c234;
+    float: left;
+}
+#coursedetail .contents .left .tab-pane#News .common .right.cta .media-right{
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+}
+#coursedetail .contents .left .tab-pane#News .common .right.cta .media-right p {
+    color: #fff;
+    padding: 0 0 12px;
+    font-size: 14px;
+    font-family: "robotomedium",sans-serif;
+}
+#coursedetail .contents .left .tab-pane#News .common .right.cta .media-right p>b {
+    font-size: 18px;
+    font-family: "robotobold",sans-serif;
+}
+#coursedetail .contents .left .tab-pane#News .common .right.cta .media-right button{
+    text-transform: uppercase;
+    height: 38px;
+    background-color: #01a0c1;
+    border: 1px solid #01a0c1;
+    padding: 6px 12px;
+    font-size: 15px;
+    font-family: "robotomedium",sans-serif;
+}
+/*News tab ends*/
+/*left block ends*/
+
+/*right block starts*/
+#coursedetail .contents .right{
+    width: 25%;
+    float: left;
+}
+#coursedetail .contents .right form.form {
+    padding: 20px 15px 15px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 15px;
+}
+#coursedetail .contents .right form h2{
+    color: #000000;
+    font-size: 28px;
+    margin: 0 0 20px;
+    line-height: 21px;
+    font-family: "robotobold",sans-serif;
+    text-align: center;
+}
+#coursedetail .contents .right form .form-group {
+    margin-bottom: 10px;
+}
+#coursedetail .contents .right form .form-control {
+    height: 38px;
+    font-size: 14px;
+    color: #999999;
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+}
+#coursedetail .contents .right form .form-control:focus{
+    border: 1px solid #01a0c1;
+}
+#coursedetail .contents .right form button.request{
+    margin: 10px 0 0;
+    background-color: #01a0c1;
+    width: 100%;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 21px;
+    padding: 12px 12px
+}
+#coursedetail .contents .right .ads{
+    margin-bottom: 15px;
+}
+#coursedetail .contents .right .compare-coll{
+    background-color: #fff;
+    padding: 25px 35px;
+}
+#coursedetail .contents .right .compare-coll h4{
+    color: #6e6e6e;
+    font-size: 21px;
+    margin: 0 0 15px;
+    line-height: 24px;
+    font-family: "robotolight",sans-serif;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    padding: 0 0 15px;
+}
+#coursedetail .contents .right .compare-coll h5{
+    color: #808080;
+    font-size: 16px;
+    margin: 0 0 25px;
+    line-height: 20px;
+    text-align: center;
+}
+#coursedetail .contents .right .compare-coll img{
+    margin-bottom: 25px;
+}
+#coursedetail .contents .right .compare-coll form .form-control {
+    height: 32px;
+    font-size: 12px;
+    color: #858585;
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+}
+#coursedetail .contents .right .compare-coll form .versus{
+    text-align: center;
+    background-color: #808080;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    height: 26px;
+    line-height: 25px;
+    width: 30%;
+    margin: 0 auto 10px;
+    border-radius: 4px;
+}
+#coursedetail .contents .right .compare-coll form button.compare{
+    text-align: center;
+    background-color: #01a0c1;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #ffffff;
+    height: 38px;
+    line-height: 16px;
+    margin: 20px auto 0;
+    border-radius: 0;
+    display: block;
+    padding: 6px 35px;
+}
+/*right block ends*/
+
+/*infrastructure starts*/
+#coursedetail .infrastructure{
+    width: 100%;
+    float: left;
+}
+/*infrastructure ends*/
+
+/*institution-bottom block starts */
+#coursedetail .institution-bottom{
+    float: left;
+    width: 100%;
+    margin: 25px 0 0;
+}
+#coursedetail .institution-bottom h2.heading {
+    color: #01a0c1;
+    font-size: 28px;
+    margin: 0 0 20px;
+    line-height: 21px;
+    border-bottom: 1px solid #d6d6d6;
+    font-family: "robotolight",sans-serif;
+    text-transform: uppercase;
+}
+#coursedetail .institution-bottom h2.heading>b {
+    font-family: "robotobold",sans-serif;
+}
+#coursedetail .institution-bottom h2.heading p.line {
+    border-bottom: 3px solid #01a0c1;
+    width: 65px;
+    margin: 0 0 -2px!important;
+    padding: 16px 0 0;
+}
+#coursedetail .institution-bottom .common{
+    float: left;
+    width: 32.4%;
+    background-color: #fff;
+    margin-right: 16px;
+}
+#coursedetail .institution-bottom .common:last-child{
+    margin: 0;
+}
+#coursedetail .institution-bottom .common .img-block{
+    background-color: #f4f4f4;
+    float: left;
+    padding: 14px 12px;
+    width: 100px;
+    height: 66px;
+    margin-left: 25px;
+    z-index: 999;
+    position: relative;
+}
+#coursedetail .institution-bottom .common .banner{
+    top: -33px;
+    position: relative;
+    width: 400px;
+    height: 190px;
+}
+#coursedetail .institution-bottom .common .badge-block{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 8px 12px;
+    float: left;
+    width: 100%;
+    margin: -62px 0 0;
+    position: relative;
+    z-index: 999;
+}
+#coursedetail .institution-bottom .common .badge-block h5{
+    color: #fefefe;
+    margin: 0 0 12px;
+    line-height: 16px;
+    font-family: "robotobold",sans-serif;
+}
+#coursedetail .institution-bottom .common .badge-block .location{
+    font-size: 14px;
+    color: #ffffff;
+    float: left;
+}
+#coursedetail .institution-bottom .common .badge-block .rating-block{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "robotobold",sans-serif;
+    float: right;
+}
+#coursedetail .institution-bottom .common .badge-block .rating-block .ratings{
+    float: left;
+    padding: 3px 0 0 10px;
+}
+#coursedetail .institution-bottom .common .badge-block .rating-block .ratings img{
+    padding: 0 1px;
+}
+#coursedetail .institution-bottom .common .content{
+    float: left;
+    width: 100%;
+    padding: 20px 22px 50px;
+}
+#coursedetail .institution-bottom .common .content h4{
+    margin: 0 0 6px;
+    font-size: 20px;
+    color: #01a0c1;
+    line-height: 25px;
+}
+#coursedetail .institution-bottom .common .content p{
+    color: #808080;
+    font-size: 14px;
+    line-height: 18px;
+}
+#coursedetail .institution-bottom .common .content p>b{
+    text-transform: uppercase;
+    color: #00080a;
+    padding-right: 8px;
+    font-weight: normal;
+}
+#coursedetail .institution-bottom .common .cta{
+    float: left;
+    width: 100%;
+}
+#coursedetail .institution-bottom .common .cta button{
+    width: 50%;
+    float: left;
+    border: 0;
+    padding: 6px 12px;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 16px;
+    font-family: "robotomedium",sans-serif;
+    height: 38px;
+    text-transform: uppercase;   
+    background-color: transparent;
+}
+#coursedetail .institution-bottom .common .cta .request{
+    background-color: #000000;
+}
+#coursedetail .institution-bottom .common .cta .apply{
+    background-color: #01a0c1;
+}
+/*institution-bottom block ends */
+
+/*media queries*/
+@media (min-width : 992px) and (max-width : 1199px) {
+    #coursedetail .header .right {
+        padding: 15px 0 15px 30px;
+    }
+    #coursedetail .header .right h4,
+    #coursedetail .header .right-next h3 {
+        font-size: 18px;
+    }
+    #coursedetail .header .right h1 {
+        font-size: 28px;
+    }
+    #coursedetail .header .right-next .media .media-body h4 {
+        font-size: 15px;
+        margin: 5px 0 8px;
+    }
+    #coursedetail .header .right-next .media .media-body a {
+        font-size: 13px;
+        padding-left: 15px;
+    }
+    #coursedetail .header .right-next .media .media-body a.view {
+        margin: 2px 0 0;
+    }
+    #coursedetail .header .right-next .carousel-control.left, 
+    #coursedetail .header .right-next .carousel-control.right,
+    #coursedetail .header .right-next a.back{
+        font-size: 13px;
+    }
+    #coursedetail .nav-tabs>li>a,
+    #coursedetail.coursedetail-fixed #coursedetail-nav-tabs.nav-tabs>li>a {
+        font-size: 15px;
+        padding: 18px 11px 15px;
+    }
+    #coursedetail .contents .left .tab-pane h2.heading {
+        font-size: 22px;
+    }
+    #coursedetail .contents .left .tab-pane p.overleft,
+    #coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane p,
+    #coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane h5,
+    #coursedetail .contents .left .tab-pane#Subject p,
+    #coursedetail .contents .left .tab-pane#Subject .college ul>li.more>a,
+    #coursedetail .contents .left .tab-pane#Skills p,
+    #coursedetail .contents .left .tab-pane#Skills .common h4,
+    #coursedetail .contents .left .tab-pane#Skills .common p,
+    #coursedetail .contents .left .tab-pane#Employers h5,
+    #coursedetail .contents .left .tab-pane#Employers p,
+    #coursedetail .contents .left .tab-pane#Salary .info>li h4,
+    #coursedetail .contents .left .tab-pane#Salary .info>li p,
+    #coursedetail .contents .left .tab-pane#Salary .common h4,
+    #coursedetail .contents .left .tab-pane#Salary .common p,
+    #coursedetail .contents .left .tab-pane#Professional h5{
+        font-size: 14px;
+    }
+    #coursedetail .contents .left .tab-pane .overright .top {
+        padding: 15px;
+        margin: 0 0 15px;
+    }
+    #coursedetail .contents .left .tab-pane .overright .top h5,
+    #coursedetail .contents .left .tab-pane .overright .top p,
+    #coursedetail .contents .left .tab-pane#Subject .spm ul>li p,
+    #coursedetail .contents .left .tab-pane#Subject .college ul>li p{
+        font-size: 12px;
+    }
+    #coursedetail .contents .left .tab-pane .overright .top h6 {
+        font-size: 20px;
+    }
+    #coursedetail .contents .left .tab-pane .overright button{
+        font-size: 13px;
+    }
+    #coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane p {;
+        margin: 0 0 18px;
+    }
+    #coursedetail .contents .left .tab-pane#Subject .college ul>li {
+        width: 15%;
+        margin-right: 30px;
+    }
+    #coursedetail .contents .left .tab-pane#Professional .panel-heading {
+        padding: 15px 10px;
+    }
+    #coursedetail .contents .left .tab-pane#Professional .panel-heading a,
+    #coursedetail .contents .left .tab-pane#Professional .panel-heading a:hover,
+    #coursedetail .contents .left .tab-pane#Professional .panel-body p {
+        font-size: 13px;
+    }
+    #coursedetail .contents .left .tab-pane#Professional .panel-heading a>span.number {
+        font-size: 14px;
+        padding: 2px 8px;
+        margin-right: 8px;
+    }
+    #coursedetail .contents .left .tab-pane#News .common a,
+    #coursedetail .contents .left .tab-pane#News .common p,
+    #coursedetail .contents .left .tab-pane#News .common .social-icons>a>i,
+    #coursedetail .contents .left .tab-pane#News .common .right.cta .media-right p{
+        font-size: 12px;
+    }
+    #coursedetail .contents .left .tab-pane#News .common .left {
+        margin-right: 18px;
+    }
+    #coursedetail .contents .left .tab-pane#News .common .right {
+        margin-left: 18px;
+    }
+    #coursedetail .contents .left .tab-pane#News .common .right.cta .media-right p>b {
+        font-size: 16px;
+    }
+    #coursedetail .contents .left .tab-pane#News .common .right.cta .media-right button {
+        height: 36px;
+        font-size: 13px;
+    }
+    #coursedetail .contents .right form h2{
+        font-size: 22px;
+    }
+    #coursedetail .contents .right form .form-control{
+        font-size: 12px;
+    }
+    #coursedetail .contents .right form button.request {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    #coursedetail .contents .right .compare-coll {
+        padding: 25px 20px;
+    }
+    #coursedetail .contents .right .compare-coll h4{
+        font-size: 18px;
+    }
+    #coursedetail .contents .right .compare-coll h5,
+    #coursedetail .contents .right .compare-coll form button.compare{
+        font-size: 14px;
+    }
+    #coursedetail .institution-bottom h2.heading {
+        font-size: 22px;
+    }
+    #coursedetail .institution-bottom .common {
+        margin-right: 12px;
+    }
+    #coursedetail .institution-bottom .common .badge-block h5,
+    #coursedetail .institution-bottom .common .badge-block .location,
+    #coursedetail .institution-bottom .common .badge-block .rating-block,
+    #coursedetail .institution-bottom .common .content p{
+        font-size: 12px;
+    }
+    #coursedetail .institution-bottom .common .badge-block .rating-block .ratings {
+        padding: 3px 0 0 4px;
+    }
+    #coursedetail .institution-bottom .common .badge-block {
+        height: 80px;
+    }
+    #coursedetail .institution-bottom .common .content h4 {
+        font-size: 16px;
+    }
+    #coursedetail .institution-bottom .common .cta button {
+        font-size: 13px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+    #coursedetail .header .right {
+        padding: 15px 0 15px 30px;
+    }
+    #coursedetail .header .right h4,
+    #coursedetail .header .right-next h3 {
+        font-size: 18px;
+    }
+    #coursedetail .header .right h1 {
+        font-size: 28px;
+    }
+    #coursedetail .header .right-next .media .media-body h4 {
+        font-size: 15px;
+        margin: 5px 0 8px;
+    }
+    #coursedetail .header .right-next .media .media-body a {
+        font-size: 13px;
+        padding-left: 15px;
+    }
+    #coursedetail .header .right-next .media .media-body a.view {
+        margin: 2px 0 0;
+    }
+    #coursedetail .header .right-next .carousel-control.left, 
+    #coursedetail .header .right-next .carousel-control.right,
+    #coursedetail .header .right-next a.back{
+        font-size: 13px;
+    }
+    #coursedetail .nav-tabs>li>a,
+    #coursedetail.coursedetail-fixed #coursedetail-nav-tabs.nav-tabs>li>a {
+        font-size: 12px;
+        padding: 10px 6px 12px;
+    }
+    #coursedetail .nav-tabs {
+        padding: 0 8px;
+    }
+    #coursedetail .contents .left .tab-pane h2.heading {
+        font-size: 22px;
+    }
+    #coursedetail .contents .left .tab-pane p.overleft,
+    #coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane p,
+    #coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane h5,
+    #coursedetail .contents .left .tab-pane#Subject p,
+    #coursedetail .contents .left .tab-pane#Subject .college ul>li.more>a,
+    #coursedetail .contents .left .tab-pane#Skills p,
+    #coursedetail .contents .left .tab-pane#Skills .common h4,
+    #coursedetail .contents .left .tab-pane#Skills .common p,
+    #coursedetail .contents .left .tab-pane#Employers h5,
+    #coursedetail .contents .left .tab-pane#Employers p,
+    #coursedetail .contents .left .tab-pane#Salary .info>li h4,
+    #coursedetail .contents .left .tab-pane#Salary .info>li p,
+    #coursedetail .contents .left .tab-pane#Salary .common h4,
+    #coursedetail .contents .left .tab-pane#Salary .common p,
+    #coursedetail .contents .left .tab-pane#Professional h5{
+        font-size: 14px;
+    }
+    #coursedetail .contents .left .tab-pane .overright .top {
+        padding: 15px;
+        margin: 0 0 15px;
+    }
+    #coursedetail .contents .left .tab-pane .overright .top h5,
+    #coursedetail .contents .left .tab-pane .overright .top p,
+    #coursedetail .contents .left .tab-pane#Subject .spm ul>li p,
+    #coursedetail .contents .left .tab-pane#Subject .college ul>li p{
+        font-size: 12px;
+    }
+    #coursedetail .contents .left .tab-pane .overright .top h6 {
+        font-size: 20px;
+    }
+    #coursedetail .contents .left .tab-pane .overright button{
+        font-size: 13px;
+    }
+    #coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane p {;
+        margin: 0 0 18px;
+    }
+    #coursedetail .contents .left .tab-pane#Subject .college ul>li {
+        width: 15%;
+        margin-right: 30px;
+    }
+    #coursedetail .contents .left .tab-pane#Professional .panel-heading {
+        padding: 15px 10px;
+    }
+    #coursedetail .contents .left .tab-pane#Professional .panel-heading a,
+    #coursedetail .contents .left .tab-pane#Professional .panel-heading a:hover,
+    #coursedetail .contents .left .tab-pane#Professional .panel-body p {
+        font-size: 13px;
+    }
+    #coursedetail .contents .left .tab-pane#Professional .panel-heading a>span.number {
+        font-size: 14px;
+        padding: 2px 8px;
+        margin-right: 8px;
+    }
+    #coursedetail .contents .left .tab-pane#News .common a,
+    #coursedetail .contents .left .tab-pane#News .common p,
+    #coursedetail .contents .left .tab-pane#News .common .social-icons>a>i,
+    #coursedetail .contents .left .tab-pane#News .common .right.cta .media-right p{
+        font-size: 12px;
+    }
+    #coursedetail .contents .left .tab-pane#News .common .left {
+        margin-right: 18px;
+    }
+    #coursedetail .contents .left .tab-pane#News .common .right {
+        margin-left: 18px;
+    }
+    #coursedetail .contents .left .tab-pane#News .common .right.cta .media-right p>b {
+        font-size: 16px
+    }
+    #coursedetail .contents .left .tab-pane#News .common .right.cta .media-right button {
+        height: 36px;
+        font-size: 13px;
+    }
+    #coursedetail .contents .right form h2{
+        font-size: 22px;
+    }
+    #coursedetail .contents .right form .form-control{
+        font-size: 12px;
+    }
+    #coursedetail .contents .right form button.request {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    #coursedetail .contents .right .compare-coll {
+        padding: 25px 20px;
+    }
+    #coursedetail .contents .right .compare-coll h4{
+        font-size: 18px;
+    }
+    #coursedetail .contents .right .compare-coll h5,
+    #coursedetail .contents .right .compare-coll form button.compare{
+        font-size: 14px;
+    }
+    #coursedetail .institution-bottom h2.heading {
+        font-size: 22px;
+    }
+    #coursedetail .institution-bottom .common {
+        margin-right: 12px;
+    }
+    #coursedetail .institution-bottom .common .badge-block h5,
+    #coursedetail .institution-bottom .common .badge-block .location,
+    #coursedetail .institution-bottom .common .badge-block .rating-block,
+    #coursedetail .institution-bottom .common .content p{
+        font-size: 12px;
+    }
+    #coursedetail .institution-bottom .common .badge-block .rating-block .ratings {
+        padding: 3px 0 0 4px;
+    }
+    #coursedetail .institution-bottom .common .badge-block {
+        height: 80px;
+    }
+    #coursedetail .institution-bottom .common .content h4 {
+        font-size: 16px;
+    }
+    #coursedetail .institution-bottom .common .cta button {
+        font-size: 13px;
+    }
+    #coursedetail .header .left img{
+        height: 300px;
+    }
+    #coursedetail .header .left {
+        width: 50%
+    }
+    #coursedetail .header .right,
+    #coursedetail .header .right-next {
+        width: 49%;
+    }
+    #coursedetail .contents .left {
+        width: 100%;
+        margin: 0 0 2%;
+    }
+    #coursedetail .contents .right {
+        width: 100%;
+        margin: 0 0 2%;
+    }
+    #coursedetail .contents .left .tab-pane#Salary .info>li {
+        margin-right: 14px;
+    }
+    #coursedetail .contents .right .ads {
+        margin: 0 auto 15px;
+    }
+    #coursedetail .institution-bottom .common {
+        width: 48%;
+        margin-right: 15px;
+        margin-bottom: 2%;
+    }
+    #coursedetail .contents .left .tab-pane#Employers .lSAction > a {
+        top: 25%;
+    }
+}
+
+@media (max-width : 767px) {
+    #coursedetail .header .right {
+        padding: 15px 0 15px 30px;
+    }
+    #coursedetail .header .right h4,
+    #coursedetail .header .right-next h3 {
+        font-size: 16px;
+        margin: 0 0 15px;
+    }
+    #coursedetail .header .right h1 {
+        font-size: 22px;
+    }
+    #coursedetail .header .right .form-control {
+        height: 34px;
+        font-size: 12px;
+        width: 80%;
+    }
+    #coursedetail .header .right button.continue {
+        height: 34px;
+        font-size: 13px;
+    }
+    #coursedetail .header .right-next .media .media-body h4 {
+        font-size: 15px;
+        margin: 5px 0 8px;
+    }
+    #coursedetail .header .right-next .media .media-body a {
+        font-size: 13px;
+        padding-left: 15px;
+    }
+    #coursedetail .header .right-next .media .media-body a.view {
+        margin: 2px 0 0;
+    }
+    #coursedetail .header .right-next .carousel-control.left, 
+    #coursedetail .header .right-next .carousel-control.right,
+    #coursedetail .header .right-next a.back{
+        font-size: 13px;
+    }    
+    #coursedetail.coursedetail-fixed #coursedetail-nav-tabs.nav-tabs>li>a {
+        font-size: 10px;
+        padding: 5px 2px;
+    }
+    #coursedetail .nav-tabs>li>a{
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    #coursedetail .nav-tabs {
+        padding: 0 8px;
+        margin: 15px 0;
+    }
+    #coursedetail .contents .left .tab-pane#Overview h2.heading {
+        margin: 0 0 15px;
+    }
+    #coursedetail .contents .left .tab-pane h2.heading {
+        font-size: 16px;
+    }
+    #coursedetail .contents .left .tab-pane p.overleft,
+    #coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane p,
+    #coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane h5,
+    #coursedetail .contents .left .tab-pane#Subject p,
+    #coursedetail .contents .left .tab-pane#Subject .college ul>li.more>a,
+    #coursedetail .contents .left .tab-pane#Skills p,
+    #coursedetail .contents .left .tab-pane#Skills .common h4,
+    #coursedetail .contents .left .tab-pane#Skills .common p,
+    #coursedetail .contents .left .tab-pane#Employers h5,
+    #coursedetail .contents .left .tab-pane#Employers p,
+    #coursedetail .contents .left .tab-pane#Salary .info>li h4,
+    #coursedetail .contents .left .tab-pane#Salary .info>li p,
+    #coursedetail .contents .left .tab-pane#Salary .common h4,
+    #coursedetail .contents .left .tab-pane#Salary .common p,
+    #coursedetail .contents .left .tab-pane#Professional h5{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    #coursedetail .contents .left .tab-pane .overright .top {
+        padding: 15px;
+        margin: 0 0 15px;
+    }
+    #coursedetail .contents .left .tab-pane .overright .top h5,
+    #coursedetail .contents .left .tab-pane .overright .top p,
+    #coursedetail .contents .left .tab-pane#Subject .spm ul>li p,
+    #coursedetail .contents .left .tab-pane#Subject .college ul>li p{
+        font-size: 12px;
+    }
+    #coursedetail .contents .left .tab-pane .overright .top h6 {
+        font-size: 16px;
+    }
+    #coursedetail .contents .left .tab-pane .overright button{
+        font-size: 12px;
+        height: 34px;
+    }
+    #coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane p {;
+        margin: 0 0 10px;
+    }
+    #coursedetail .contents .left .tab-pane#Subject .college ul>li {
+        width: 36%;
+        margin: 0 36px 36px 0;
+    }
+    #coursedetail .contents .left .tab-pane#Professional .panel-heading {
+        padding: 15px 10px;
+    }
+    #coursedetail .contents .left .tab-pane#Professional .panel-heading a,
+    #coursedetail .contents .left .tab-pane#Professional .panel-heading a:hover,
+    #coursedetail .contents .left .tab-pane#Professional .panel-body p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    #coursedetail .contents .left .tab-pane#Professional .panel-heading a>span.number {
+        font-size: 14px;
+        padding: 2px 8px;
+        margin-right: 8px;
+    }
+    #coursedetail .contents .left .tab-pane#News .common a,
+    #coursedetail .contents .left .tab-pane#News .common p,
+    #coursedetail .contents .left .tab-pane#News .common .social-icons>a>i,
+    #coursedetail .contents .left .tab-pane#News .common .right.cta .media-right p{
+        font-size: 12px;
+    }
+    #coursedetail .contents .left .tab-pane#News .common .left,
+    #coursedetail .contents .left .tab-pane#News .common .right {
+        margin: 0 0 20px;
+        width: 100%;
+        height: auto;
+    }
+    #coursedetail .contents .left .tab-pane#News .common .left .media-left,
+    #coursedetail .contents .left .tab-pane#News .common .right .media-left{
+        display: block;
+        padding: 0;
+    }
+    #coursedetail .contents .left .tab-pane#News .common.first,
+    #coursedetail .contents .left .tab-pane#News .common {
+        padding: 10px 5px 0;
+        margin: 0 0 15px;
+    }
+    #coursedetail .contents .left .tab-pane#News .common .left .media-left img,
+    #coursedetail .contents .left .tab-pane#News .common .right .media-left img{
+        margin: 0 auto 10px;
+    }
+    #coursedetail .contents .left .tab-pane#News .common .left .media-right{
+        padding: 0;
+    }
+    #coursedetail .contents .left .tab-pane#News .common .right.cta .media-right p>b {
+        font-size: 14px
+    }
+    #coursedetail .contents .left .tab-pane#News .common .right.cta .media-right button {
+        height: 34px;
+        font-size: 12px;
+    }
+    #coursedetail .contents .right form h2{
+        font-size: 18px;
+    }
+    #coursedetail .contents .right form .form-control{
+        font-size: 12px;
+        height: 34px;
+    }
+    #coursedetail .contents .right form button.request {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+    #coursedetail .contents .right .compare-coll {
+        padding: 25px 20px;
+    }
+    #coursedetail .contents .right .compare-coll h4{
+        font-size: 18px;
+    }
+    #coursedetail .contents .right .compare-coll h5,
+    #coursedetail .contents .right .compare-coll form button.compare{
+        font-size: 14px;
+    }
+    #coursedetail .institution-bottom h2.heading {
+        font-size: 16px;
+    }
+    #coursedetail .institution-bottom .common {
+        margin-right: 12px;
+    }
+    #coursedetail .institution-bottom .common .badge-block h5,
+    #coursedetail .institution-bottom .common .badge-block .location,
+    #coursedetail .institution-bottom .common .badge-block .rating-block,
+    #coursedetail .institution-bottom .common .content p{
+        font-size: 12px;
+    }
+    #coursedetail .institution-bottom .common .badge-block .rating-block .ratings {
+        padding: 1px 0 0 4px;
+    }
+    #coursedetail .institution-bottom .common .badge-block {
+        height: auto;
+    }
+    #coursedetail .institution-bottom .common .content h4 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    #coursedetail .institution-bottom .common .cta button {
+        font-size: 12px
+    }
+    #coursedetail .contents .left {
+        width: 100%;
+        margin: 0 0 2%;
+    }
+    #coursedetail .contents .right {
+        width: 100%;
+        margin: 0 0 2%;
+    }
+    #coursedetail .contents .left .tab-pane#Salary .info>li {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #coursedetail .contents .right .ads {
+        margin: 0 auto 15px;
+    }
+    #coursedetail .institution-bottom .common {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+    #top-strip {
+        height: 40px;
+    }
+    .breadcrumb {
+        padding: 12px 0 12px;
+    }
+    .breadcrumb li.active,
+    .breadcrumb a {
+        font-size: 12px;
+    }
+    #coursedetail .header {
+        padding: 12px;
+    }
+    #coursedetail .header .left {
+        width: 100%;
+        margin: 0 0 6%;
+    }
+    #coursedetail .header .right,
+    #coursedetail .header .right-next {
+        width: 100%;
+        padding: 0 0 20px 0;
+    }
+    #coursedetail .contents .left .tab-pane {
+        padding: 12px;
+    }
+    #coursedetail .contents .left .tab-pane p.overleft {
+        margin: 0 0 6%;
+        width: 100%;
+    }
+    #coursedetail .contents .left .tab-pane .overright {
+        width: 100%;
+    }
+    #coursedetail .contents .left .tab-pane h2.heading p.line {
+        padding: 8px 0 0;
+    }
+    #coursedetail .contents .left .tab-pane#Entry .nav-tabs>li {
+        width: 100%;
+    }
+    #coursedetail .contents .left .tab-pane#Entry .nav-tabs>li>a {
+        margin: 0 0 3px;
+        font-size: 12px;
+    }
+    #coursedetail .contents .left .tab-pane#Entry .tab-content .tab-pane {
+        padding: 15px 12px;
+    }
+    #coursedetail .contents .left .tab-pane#Subject p {
+        margin: 0 0 15px;
+    }
+    #coursedetail .contents .left .tab-pane#Subject .spm {
+        margin: 0 0 30px;
+        padding: 0 10px 0;
+    }
+    #coursedetail .contents .left .tab-pane#Subject .spm h4,
+    #coursedetail .contents .left .tab-pane#Subject .college h4 {
+        font-size: 14px;
+        margin: 0 0 15px;
+    }
+    #coursedetail .contents .left .tab-pane#Subject .college {
+        margin: 0 0 10px;
+        padding: 0 10px 15px;
+    }
+    #coursedetail .contents .left .tab-pane#Skills .common .media-left{
+        width: 100%;
+        display: block;
+        margin: 0 0 15px;
+        padding: 0;
+    }
+    #coursedetail .contents .left .tab-pane#Skills .common .media-right{
+        padding-right: 0;
+        text-align: center;
+    }
+    #coursedetail .contents .left .tab-pane#Skills .common .img-block {
+        margin: 0 auto;
+    }
+    #coursedetail .contents .left .tab-pane#Skills .common {
+        padding: 0 10px;
+    }
+    #coursedetail .contents .left .tab-pane#Skills .common p {
+        margin: 0 0 15px;
+    }
+    #coursedetail .contents .left .tab-pane#Employers ul {
+        margin: 15px 12px 0;
+    }
+    #coursedetail .contents .left .tab-pane#Employers p{
+        text-align: justify;
+    }
+    #coursedetail .contents .left .tab-pane#Employers .lSAction > a {
+        top: 25%;
+    }
+    #coursedetail .contents .left .tab-pane#Salary .info {
+        margin: 0;
+    }
+    #coursedetail .contents .left .tab-pane#Salary .info>li>img {
+        padding: 15px 0;
+    }
+    #coursedetail .contents .left .tab-pane#Salary .common {
+        margin: 15px 0 5px;
+    }
+    #coursedetail .contents .left .tab-pane#Salary .common .media-left{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    #coursedetail .contents .left .tab-pane#Salary .common .media-left .img-block {
+        padding: 10px 8px 2px;
+        margin: 0 auto 10px;
+    }
+    #coursedetail .contents .left .tab-pane#Salary .common .media-right{
+        padding: 0;
+    }
+    #coursedetail .contents .left .tab-pane#Salary .common h4{
+        text-align: center;
+    }
+    #coursedetail .contents .left .tab-pane#Professional .panel-body p {
+        margin: 0 0 12px;
+    }
+    #coursedetail .contents .right .compare-coll form .form-control {
+        height: 34px;
+    }
+    #coursedetail .institution-bottom h2.heading p.line {
+        padding: 8px 0 0;
+    }
+    #coursedetail .institution-bottom .common .badge-block .location {
+        width: 100%;
+        margin: 0 0 12px;
+    }
+    #coursedetail .institution-bottom .common .badge-block .rating-block {
+        float: left;
+        width: 100%;
+    }
+    #coursedetail {
+        padding: 0 0 40px;
+    }
+    #backtotop {
+        bottom: 15px!important;
+        right: 5px!important;
+        width: 25px!important;
+        height: 25px!important;
+    }
+    #backtotop > i {
+        font-size: 10px!important;
+        line-height: 22px!important;
+    }
+    .scrtabs-tab-container {
+        height: auto!important;
+    }
+}
+/*coursedetail ends*/

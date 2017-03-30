@@ -1,0 +1,2308 @@
+ /*institutedetail top-strip starts*/
+#top-strip{
+	background-color: #01a0c1;
+	height: 75px;
+}
+/*institutedetail top-strip ends*/
+
+/*institutedetail breadcrumb starts*/
+#breadcrumb{
+    background-color: #eaeaea;
+}
+.breadcrumb{
+    padding: 15px 0 18px;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0;
+}
+.breadcrumb li.active{
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px; 
+}
+.breadcrumb a{
+    color: #01a0c1;
+    font-size: 14px;
+    line-height: 16px; 
+}
+/*institutedetail breadcrumb ends*/
+
+/*institutedetail page starts*/
+#institutedetail{
+	background-color: #eaeaea;
+	padding: 0;
+}
+
+/*institutedetail header starts*/
+#institutedetail .header{
+    background-color: #fff;
+    width: 100%;
+    float: left;
+}
+#institutedetail .header .left{
+    width: 73%;
+    float: left;
+}
+#institutedetail .header .left #institute-carousel a.details, 
+#institutedetail .header .left #institute-carousel a.details:hover {
+    background-color: #2ba7c5;
+    padding: 8px 12px 6px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 4px;
+    position: relative;
+    top: 12px;
+    right: 12px;
+    text-decoration: none;
+    float: right;
+    z-index: 999;
+    margin-bottom: -36px;
+}
+#institutedetail .header .left #institute-carousel .item {
+    height: 340px;
+    width: 100%;
+    float: none;
+    padding: 0;
+}
+#institutedetail .header .left #institute-carousel .carousel-control.left,
+#institutedetail .header .left #institute-carousel .carousel-control.right {
+    background-image: none;
+    width: 10%;
+    float: none;    
+    text-shadow: 0 0 0;
+    opacity: 1;
+    padding: 0;
+    display: none;
+}
+#institutedetail .header .left #institute-carousel .carousel-control span{
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    margin: 0;
+    top: 45%;
+}
+#institutedetail .header .left #institute-carousel .controls{
+    overflow-x: auto;
+    overflow-y: hidden;
+    float: right;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 12px;
+    position: relative;
+    bottom: 85px;
+    z-index: 999;
+    height: 85px;
+    margin-bottom: -85px;
+    text-align: right;
+}
+#institutedetail .header .left #institute-carousel .controls li {
+    display: inline-block;
+    opacity: 0.6;
+}
+#institutedetail .header .left #institute-carousel .controls li.active {
+    opacity: 1;
+}
+#institutedetail .header .left #institute-carousel .controls li>a {
+    padding: 0;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+#institutedetail .header .left #institute-carousel .controls li>a>img {
+    width: 70px;
+    height: 58px;
+}
+
+#institutedetail .header .left .college-details{
+    padding: 30px 40px 20px;
+}
+#institutedetail .header .left .college-details .media-left img{
+    padding: 16px 0 0;
+}
+#institutedetail .header .left .college-details .media-right{
+    padding-left: 30px;
+}
+#institutedetail .header .left .college-details .media-right h2{
+    font-size: 28px;
+    color: #000000;
+    margin: 0;
+    line-height: 30px;
+    font-family: "robotobold",sans-serif;
+}
+#institutedetail .header .left .college-details .media-right .detail {
+    padding: 12px 0 0;
+    float: left;
+    width: 100%;
+}
+#institutedetail .header .left .college-details .media-right .detail p,
+#institutedetail .header .left .college-details .media-right .detail a {
+    float: left;
+    font-size: 14px;
+    color: #666666;
+    line-height: 18px;
+    border-right: 1px solid #e8e8e8;
+    padding: 2px 25px 2px 0;
+    margin-right: 25px;
+}
+#institutedetail .header .left .college-details .media-right .detail a {
+    cursor: pointer;
+}
+#institutedetail .header .left .college-details .media-right .detail a:hover{
+    text-decoration: none;
+    color: #01a0c1;
+}
+#institutedetail .header .left .college-details .media-right .detail p:last-child,
+#institutedetail .header .left .college-details .media-right .detail a:last-child {
+    border: 0;
+    margin: 0;
+}
+#institutedetail .header .left .college-details .media-right .detail p>i,
+#institutedetail .header .left .college-details .media-right .detail a>i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+
+
+#institutedetail .header .right{
+    width: 27%;
+    float: left;
+    padding: 10px;
+}
+#institutedetail .header .right form.form {
+    padding: 20px 15px 15px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 0;
+}
+#institutedetail .header .right form h2{
+    color: #000000;
+    font-size: 28px;
+    margin: 0 0 20px;
+    line-height: 21px;
+    font-family: "robotobold",sans-serif;
+    text-align: center;
+}
+#institutedetail .header .right form .form-group {
+    margin-bottom: 10px;
+}
+#institutedetail .header .right form .form-control {
+    height: 38px;
+    font-size: 14px;
+    color: #999999;
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+}
+#institutedetail .header .right form .form-control:focus{
+    border: 1px solid #01a0c1;
+}
+#institutedetail .header .right form button.request{
+    margin: 10px 0 0;
+    background-color: #01a0c1;
+    width: 100%;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 21px;
+    padding: 10px 12px
+}
+/*institutedetail header ends*/
+
+#institutedetail .contents{
+    float: left;
+    width: 100%;
+    padding: 15px 0 0;
+}
+/*left block starts*/
+#institutedetail .contents .left{
+    width: 73%;
+    float: left;
+    margin: 0 2% 0 0;  
+}
+
+/*institutedetail nav tabs starts*/
+#institutedetail .nav-tabs {
+    background-color: #ffffff;
+    border: 0;
+    padding: 0 15px;
+    margin: 0 0 15px;
+}
+#institutedetail .scrtabs-tabs-fixed-container {
+    height: auto;
+}
+#institutedetail.institutedetail-fixed #institutedetail-nav-tabs.nav-tabs {
+    background-color: #01a0c1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    border: 0;
+    text-align: center;
+    margin: 0;
+}
+#institutedetail.institutedetail-fixed #institutedetail-nav-tabs.nav-tabs>li{
+    float: none;
+    display: inline-block;
+}
+#institutedetail.institutedetail-fixed #institutedetail-nav-tabs.nav-tabs>li>a {
+    color: #fefeff;
+    font-size: 16px;
+    padding: 12px 15px 15px;
+}
+#institutedetail .nav-tabs>li.active>a {
+    border-bottom: 3px solid #01a0c1;
+}
+#institutedetail .nav-tabs>li>a {
+    margin-right: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 17px;
+    color: #000000;
+    padding: 20px 15px 16px;
+    margin: 0 20px;
+    background-color: transparent;
+    line-height: 20px;
+}
+/*institutedetail nav tabs ends*/
+
+#institutedetail .contents .left .tab-pane {
+    padding: 25px;
+    margin: 0 0 15px;
+    background-color: #fff;
+    display: block;
+}
+#institutedetail .contents .left .tab-pane h2.heading{
+    color: #01a0c1;
+    font-size: 28px;
+    margin: 0 0 15px;
+    line-height: 21px;
+    border-bottom: 1px solid #ebebeb; 
+    font-family: "robotolight",sans-serif;  
+    text-transform: uppercase;
+}
+#institutedetail .contents .left .tab-pane h2.heading>b{
+    font-family: "robotobold",sans-serif;
+}
+#institutedetail .contents .left .tab-pane h2.heading p.line {
+    border-bottom: 3px solid #01a0c1;
+    width: 65px;
+    margin: 0 0 -2px!important;
+    padding: 16px 0 0;
+}
+
+/*overview tab starts*/
+#institutedetail .contents .left .tab-pane#Overview{
+    padding: 15px;
+}
+#institutedetail .contents .left .tab-pane#Overview .common{
+    padding: 25px;
+    margin:15px;
+    float: left;
+    width: 29%;
+    background-color: #f4f4f4;
+    text-align: center;
+    height: 140px;
+}
+#institutedetail .contents .left .tab-pane#Overview .common h5{
+    color: #808080;
+    font-size: 14px;
+    margin: 0 0 25px;
+    text-transform: uppercase;
+    font-family: "robotobold",sans-serif;
+}
+#institutedetail .contents .left .tab-pane#Overview .common .img-block{
+    width: 34%;
+    float: left;
+    padding: 8px 0 0;
+}
+#institutedetail .contents .left .tab-pane#Overview .common h4{
+    color: #808080;
+    font-size: 18px;
+    margin: 0 0 0 10px;
+    text-transform: uppercase;
+    font-family: "robotobold",sans-serif;
+    float: left;
+    width: 60%;
+    border-left: 1px solid #888888;
+    text-align: left;
+    padding: 6px 20px;
+    line-height: 22px;
+}
+#institutedetail .contents .left .tab-pane#Overview .common.numbers .img-block{
+    width: 44%;
+}
+#institutedetail .contents .left .tab-pane#Overview .common.numbers h4{
+    width: 50%;
+    text-align: center;
+    color: #01a0c1;
+    font-size: 36px;
+    line-height: 18px;
+    padding: 6px 10px 6px 30px;
+}
+#institutedetail .contents .left .tab-pane#Overview .common h4>span{
+    text-transform: initial;
+    font-size: 14px;
+    color: #808080;
+    font-family: "robotoregular",sans-serif;
+}
+#institutedetail .contents .left .tab-pane#Overview .common.year h4{
+    width: 60%;
+    text-align: center;
+    color: #808080;
+    font-size: 26px;
+    line-height: 22px;
+    padding: 6px 10px;
+}
+#institutedetail .contents .left .tab-pane#Overview .year h4>span{
+    text-transform: initial;
+    font-size: 14px;
+    color: #808080;
+    font-family: "robotoregular",sans-serif;
+}
+#institutedetail .contents .left .tab-pane#Overview .common.rating .img-block {
+    width: 36%;
+    display: inline-flex;
+    padding: 16px 0 0;
+}
+#institutedetail .contents .left .tab-pane#Overview .common.rating h4{
+    width: 58%;
+    padding: 6px 10px;
+}
+#institutedetail .contents .left .tab-pane#Overview .common.rating .img-block img{
+    height: 13px;
+    width: 13px;
+    margin: 0 1px;
+}
+#institutedetail .contents .left .tab-pane#Overview .common.admission{
+    background-color: #b1c234;
+}
+#institutedetail .contents .left .tab-pane#Overview .common.admission h4 {
+    color: #ffffff;
+    font-size: 21px;
+    margin: 0 0 0 5px;
+    text-transform: uppercase;
+    font-family: "robotoregular",sans-serif;
+    float: left;
+    width: 62%;
+    border-left: 0;
+    text-align: left;
+    padding: 2px 20px;
+    line-height: 26px;
+}
+/*overview tab ends*/
+
+/*Courses tab starts*/
+#institutedetail .contents .left .tab-pane#Courses select.select-course,
+#institutedetail .contents .left .tab-pane#Courses select.select-course:focus{
+    width: 33%;
+    height: 36px;
+    float: right;
+    font-size: 14px;
+    color: #000000;
+    line-height: 16px;
+    background-color: #eaeaea;
+    font-family: "robotoregular",sans-serif;
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+    margin: -6px 0 0;
+    outline: 0;
+    border-color: #ccc; 
+}
+#institutedetail .contents .left .tab-pane#Courses a.view-all{
+    float: right;
+    color: #666666;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "robotoregular",sans-serif;
+    text-transform: initial;
+    padding: 8px 0 0;
+}
+#institutedetail .contents .left .tab-pane#Courses a.view-all:hover{
+    color: #01a0c1;
+}
+#institutedetail .contents .left .tab-pane#Courses .nav-tabs {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 22px 0 0;
+}
+#institutedetail .contents .left .tab-pane#Courses .nav-tabs>li{
+    width: 20%;
+}
+#institutedetail .contents .left .tab-pane#Courses .nav-tabs>li>a {
+    margin: 0 2px;
+    border: 0;
+    border-radius: 0;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 6px 12px;
+    background-color: #01a0c1;
+    line-height: 20px;
+    height: 32px;
+    text-align: center;
+}
+#institutedetail .contents .left .tab-pane#Courses .nav-tabs>li.active>a {
+    background-color: #000000;
+}
+#institutedetail .contents .left .tab-pane#Courses .nav-tabs>li>a.last {
+    margin-right: 0;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .tab-pane {
+    padding: 30px 5px 0;
+    margin: 0;
+    background-color: transparent;
+    display: none;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .tab-pane.active {
+    display: block;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common{
+    padding: 0 10px 15px;
+    margin: 0 0 15px;
+    border-bottom: 1px solid #b2b2b2;
+    float: left;
+    width: 100%;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common:last-child{
+    margin: 0;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left{
+    width: 75%;
+    float: left;
+    margin-right: 5%;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left a,
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left a:hover{
+    margin: 0;
+    font-size: 21px;
+    color: #01a0c1;
+    line-height: 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left .detail{
+    padding: 15px 0;
+    float: left;
+    width: 100%;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left .detail p{
+    float: left;
+    margin-right: 50px;
+    font-size: 14px;
+    color: #808080;
+    line-height: 22px;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left .detail p>img{
+    margin-right: 15px;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left h5{
+    margin: 0;
+    font-size: 14px;
+    color: #808080;
+    line-height: 18px;
+    clear: both;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left h5>b{
+    font-weight: normal;
+    color: #00080a;
+    padding-right: 12px;
+    text-transform: uppercase;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-right{
+    width: 20%;
+    float: left;
+    padding: 10px 0 0;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-right a,
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-right a:hover{
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+    margin-bottom: 15px;
+    padding: 0 6px;
+    text-decoration: none;
+    float: left;
+    width: 100%;
+    cursor: pointer;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-right a:hover{
+    color: #01a0c1;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-right a>img{
+    margin-right: 12px;
+}
+#institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-right button {
+    text-align: center;
+    background-color: #01a0c1;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #ffffff;
+    height: 38px;
+    line-height: 16px;
+    margin: 0 auto;
+    border-radius: 0;
+    display: block;
+    padding: 6px 26px;
+    border: 0;
+    font-family: "robotomedium",sans-serif;
+}
+/*Courses tab ends*/
+
+/*right-course ad starts*/
+#institutedetail .contents .left .right-course-ad {
+    padding: 0;
+    margin-bottom: 15px;
+}
+/*right-course ad ends*/
+
+/*Scholarships tab starts*/
+#institutedetail .contents .left .tab-pane#Scholarships .common{
+    padding: 15px 10px 15px;
+    margin: 0 0 10px;
+    border-bottom: 1px solid #b2b2b2;
+    float: left;
+    width: 100%;
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common:last-child{
+    margin: 0;
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-left{
+    width: 75%;
+    float: left;
+    margin-right: 5%;
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-left .date-block{
+    float: left;
+    width: 16%;
+    margin-right: 25px;
+    text-align: center;
+    background-color: #f4f4f4;
+    height: 95px;
+    padding: 24px 0 0;
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-left .date-block h4{
+    font-size: 16px;
+    color: #808080;
+    font-family: "robotobold",sans-serif;   
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-left .date-block p{
+    color: #808080;
+    font-size: 24px;
+    font-family: "robotolight",sans-serif;
+    line-height: 22px;   
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-left .title-block{
+    float: left;
+    width: 75%;
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-left a,
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-left a:hover{
+    margin: 0;
+    font-size: 21px;
+    color: #01a0c1;
+    line-height: 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-left .detail{
+    padding: 15px 0 0;
+    float: left;
+    width: 100%;
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-left .detail p{
+    float: left;
+    margin-right: 8px;
+    font-size: 12px;
+    color: #fdfffc;
+    line-height: 16px;
+    background-color: #808080;
+    height: 24px;
+    padding: 3px 10px;
+    border-radius: 4px;
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-left .detail p.malaysia{
+    background-color: #b2c33a;
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-right{
+    width: 20%;
+    float: left;
+    padding: 10px 0 0;
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-right a,
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-right a:hover{
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+    margin-bottom: 15px;
+    padding: 0 12px;
+    text-decoration: none;
+    float: left;
+    width: 100%;
+    cursor: pointer;
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-right a:hover{
+    color: #01a0c1;
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-right a>img{
+    margin-right: 10px;
+}
+#institutedetail .contents .left .tab-pane#Scholarships .common .c-right button {
+    text-align: center;
+    background-color: #01a0c1;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #ffffff;
+    height: 38px;
+    line-height: 16px;
+    margin: 0 auto;
+    border-radius: 0;
+    display: block;
+    padding: 6px 26px;
+    border: 0;
+    font-family: "robotomedium",sans-serif;
+}
+#institutedetail .contents .left .tab-pane#Scholarships .more{
+    float: left;
+    width: 100%;
+    height: 808px;
+    overflow: hidden;
+}
+#institutedetail .contents .left a.view-more,
+#institutedetail .contents .left a.view-more:hover{
+    float: left;
+    width: 100%;
+    background-color: #cbcbcb;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 9px 12px;
+    margin: -15px 0 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#institutedetail .contents .left a.view-more>i{
+    font-size: 18px;
+}
+/*Scholarships tab ends*/
+
+/*News tab starts*/
+#institutedetail .contents .left .tab-pane#News .common{
+    border-bottom: 1px solid #b2b2b2;
+    padding: 0 5px 25px;
+    margin: 0 0 25px;
+    float: left;
+    width: 100%;
+}
+#institutedetail .contents .left .tab-pane#News .common.first{
+    padding: 10px 5px 25px;
+}
+#institutedetail .contents .left .tab-pane#News .common:last-child{
+    margin: 0 0 10px;
+}
+#institutedetail .contents .left .tab-pane#News .common .left{
+    margin-right: 22px;
+    width: 47%;
+    float: left;
+    height: 105px;
+}
+#institutedetail .contents .left .tab-pane#News .common .right{
+    margin-left: 22px;
+    width: 47%;
+    float: left;
+    height: 105px;
+}
+#institutedetail .contents .left .tab-pane#News .common a {
+    color: #000000;
+    margin: 0;
+    line-height: 18px;
+    font-family: "robotobold",sans-serif;
+    padding: 0 0 5px;
+    font-size: 14px;
+    float: left;
+}
+#institutedetail .contents .left .tab-pane#News .common a:hover {
+    color: #01a0c1;
+    text-decoration: none;
+}
+#institutedetail .contents .left .tab-pane#News .common p {
+    color: #808080;
+    margin: 0;
+    line-height: 18px;
+    padding: 0 0 8px;
+    font-size: 14px;
+    float: left;
+    width: 100%;
+}
+#institutedetail .contents .left .tab-pane#News .common .social-icons>a:hover>i{
+    color: #01a0c1;
+}
+#institutedetail .contents .left .tab-pane#News .common .social-icons>a>i{
+    font-size: 15px;
+    color: #c7c7c7;
+    padding: 0 6px 0 5px;
+}
+#institutedetail .contents .left .tab-pane#News .common .right.cta{
+    background-color: #c4d54b;
+    padding: 1px 0;
+}
+#institutedetail .contents .left .tab-pane#News .common .right.cta .media-left{
+    background-color: #ffffff;
+    padding: 20px 25px 19px;
+    border: 1px solid #b1c234;
+    float: left;
+}
+#institutedetail .contents .left .tab-pane#News .common .right.cta .media-right{
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+}
+#institutedetail .contents .left .tab-pane#News .common .right.cta .media-right p {
+    color: #fff;
+    padding: 0 0 12px;
+    font-size: 14px;
+    font-family: "robotomedium",sans-serif;
+}
+#institutedetail .contents .left .tab-pane#News .common .right.cta .media-right p>b {
+    font-size: 18px;
+    font-family: "robotobold",sans-serif;
+}
+#institutedetail .contents .left .tab-pane#News .common .right.cta .media-right button{
+    text-transform: uppercase;
+    height: 38px;
+    background-color: #01a0c1;
+    border: 1px solid #01a0c1;
+    padding: 6px 12px;
+    font-size: 15px;
+    font-family: "robotomedium",sans-serif;
+}
+/*News tab ends*/
+
+/*Facilities tab starts*/
+#institutedetail .contents .left .tab-pane#Facilities .Facilities{
+    padding: 10px 0 25px;
+    border-bottom: 1px solid #b2b2b2;
+    float: left;
+    width: 100%;  
+}
+#institutedetail .contents .left .tab-pane#Facilities .common{
+    float: left;
+    margin: 0 30px 15px;
+    width: 12%;
+}
+#institutedetail .contents .left .tab-pane#Facilities .common .img-block{
+    border: 1px solid #e2e2e2;
+    border-radius: 50%;
+    padding: 25px 15px;
+    height: 100px;
+    width: 100px!important;
+}
+#institutedetail .contents .left .tab-pane#Facilities .common p{
+    font-size: 14px;
+    color: #808080;
+    margin: 0;
+    line-height: 24px;
+    padding: 4px 0 0;
+    text-align: center; 
+}
+/*Facilities tab ends*/
+
+/*Overview-text tab starts*/
+#institutedetail .contents .left .tab-pane#Overview-text p{
+    color: #808080;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 25px;
+}
+#institutedetail .contents .left .tab-pane#Overview-text p:last-child{
+    margin: 0;
+}
+#institutedetail .contents .left .tab-pane#Overview-text p>b{
+    font-family: "robotobold",sans-serif;   
+}
+/*Overview-text tab ends*/
+
+/*Contact tab starts*/
+#institutedetail .contents .left .tab-pane#Contact p{
+    color: #808080;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 22px; 
+}
+#institutedetail .contents .left .tab-pane#Contact p.last{
+    margin: 0 0 10px;
+    padding-left: 30px; 
+    padding-right: 10px;
+}
+#institutedetail .contents .left .tab-pane#Contact .c-left{
+    float: left;
+    width: 54%;
+    padding-left: 10px;
+    margin-right: 1%;
+    margin-bottom: 45px; 
+    height: 325px;
+}
+#institutedetail .contents .left .tab-pane#Contact .c-left h5{
+    color: #808080;
+    line-height: 24px;
+    font-size: 16px;
+    margin: 0;
+    font-family: "robotobold",sans-serif;   
+}
+#institutedetail .contents .left .tab-pane#Contact .c-left ul{
+    padding-left: 30px;
+}
+#institutedetail .contents .left .tab-pane#Contact .c-left ul>li{
+    color: #00acec;  
+    font-size: 18px;
+}
+#institutedetail .contents .left .tab-pane#Contact .c-left ul>li>p{
+    color: #808080;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;     
+}
+#institutedetail .contents .left .tab-pane#Contact .c-left ul>li>b{
+    font-family: "robotobold",sans-serif;  
+}
+#institutedetail .contents .left .tab-pane#Contact .c-right{
+    float: left;
+    width: 45%;
+    margin-bottom: 45px;    
+    height: 325px;
+}
+#institutedetail .contents .left .tab-pane#Contact .c-right iframe{
+    width: 100%;
+    height: 325px;
+}
+#institutedetail .contents .left .tab-pane#Contact .c-right a,
+#institutedetail .contents .left .tab-pane#Contact .c-right a:hover{
+    background-color: #2ba7c5;
+    padding: 8px 12px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 4px;
+    position: relative;
+    top: -58px;
+    left: 10px;
+    text-decoration: none;
+}
+/*Contact tab ends*/
+/*left block ends*/
+
+/*right block starts*/
+#institutedetail .contents .right{
+    width: 25%;
+    float: left;
+}
+#institutedetail .contents .right .ask-questions{
+    background-color: #dddddd;
+    padding: 20px 15px 10px;
+    text-align: center;   
+    margin: 0 0 15px;
+}
+#institutedetail .contents .right .ask-questions p{
+    line-height: 16px;
+    font-size: 14px;
+    color: #808080;
+    padding: 0 0 12px;    
+}
+#institutedetail .contents .right .ask-questions button{
+    background-color: #b1c234;
+    padding: 6px 36px;
+    border: 0;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    height: 36px;
+    border-radius: 4px;
+}
+#institutedetail .contents .right .claim{
+    background-color: #fff;
+    padding: 12px 15px 10px 10px;
+    margin: 0 0 15px;
+}
+#institutedetail .contents .right .claim p{
+    line-height: 22px;
+    font-size: 16px;
+    color: #808080;
+    padding: 0 0 0 10px;  
+}
+#institutedetail .contents .right .claim .img-block{
+    border: 1px solid #e0e0e0;
+    padding: 6px;
+    width: 85px;
+    height: 65px;
+}
+#institutedetail .contents .right .claim button{
+    background-color: #01a0c1;
+    padding: 6px 10px;
+    border: 0;
+    font-size: 15px;
+    line-height: 16px;
+    color: #ffffff;
+    height: 36px;
+    border-radius: 0;
+    text-transform: uppercase;
+    margin: 15px 0 0;
+}
+
+#institutedetail .contents .right .rate{
+    background-color: #fff;
+    padding: 22px 35px 15px;
+    margin: 0 0 15px;
+}
+#institutedetail .contents .right .rate h4{
+    color: #6e6e6e;
+    font-size: 21px;
+    margin: 0 0 15px;
+    line-height: 24px;
+    font-family: "robotolight",sans-serif;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    padding: 0 0 15px;
+}
+#institutedetail .contents .right .rate h5{
+    color: #808080;
+    font-size: 16px;
+    margin: 0;
+    line-height: 20px;
+    text-align: center;
+}
+#institutedetail .contents .right .rate .stars{
+    padding: 15px 20px 20px;
+    display: inline-flex;
+    width: 100%;
+}
+#institutedetail .contents .right .rate .stars img{
+    margin: 0 auto;
+}
+#institutedetail .contents .right .rate button{
+    text-align: center;
+    background-color: #01a0c1;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #ffffff;
+    height: 38px;
+    line-height: 16px;
+    margin: 0 auto;
+    border-radius: 0;
+    display: block;
+    padding: 6px 35px;
+    border: 0;
+}
+
+#institutedetail .contents .right .apply-now{
+    background-color: #fff;
+    padding: 22px 25px 15px;
+    margin: 0 0 15px;
+}
+#institutedetail .contents .right .apply-now h4{
+    color: #6e6e6e;
+    font-size: 21px;
+    margin: 0 0 15px;
+    line-height: 24px;
+    font-family: "robotolight",sans-serif;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    padding: 0 0 15px;
+}
+#institutedetail .contents .right .apply-now h5{
+    color: #808080;
+    font-size: 16px;
+    margin: 0;
+    line-height: 20px;
+}
+#institutedetail .contents .right .apply-now button{
+    text-align: center;
+    background-color: #01a0c1;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #ffffff;
+    height: 38px;
+    line-height: 16px;
+    margin: 35px auto 0;
+    border-radius: 0;
+    display: block;
+    padding: 6px 25px;
+    border: 0;
+}
+#institutedetail .contents .right .ads{
+    margin-bottom: 15px;
+}
+#institutedetail .contents .right .compare-coll{
+    background-color: #fff;
+    padding: 25px 35px;
+}
+#institutedetail .contents .right .compare-coll h4{
+    color: #6e6e6e;
+    font-size: 21px;
+    margin: 0 0 15px;
+    line-height: 24px;
+    font-family: "robotolight",sans-serif;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    padding: 0 0 15px;
+}
+#institutedetail .contents .right .compare-coll h5{
+    color: #808080;
+    font-size: 16px;
+    margin: 0 0 25px;
+    line-height: 20px;
+    text-align: center;
+}
+#institutedetail .contents .right .compare-coll img{
+    margin-bottom: 25px;
+}
+#institutedetail .contents .right .compare-coll form .form-control {
+    height: 32px;
+    font-size: 12px;
+    color: #858585;
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+}
+#institutedetail .contents .right .compare-coll form .versus{
+    text-align: center;
+    background-color: #808080;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    height: 26px;
+    line-height: 25px;
+    width: 30%;
+    margin: 0 auto 10px;
+    border-radius: 4px;
+}
+#institutedetail .contents .right .compare-coll form button.compare{
+    text-align: center;
+    background-color: #01a0c1;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #ffffff;
+    height: 38px;
+    line-height: 16px;
+    margin: 20px auto 0;
+    border-radius: 0;
+    display: block;
+    padding: 6px 35px;
+}
+/*right block ends*/
+
+/*institution-bottom block starts */
+#institutedetail .institution-bottom{
+    float: left;
+    width: 100%;
+    margin: 35px 0 45px;
+}
+#institutedetail .institution-bottom h2.heading {
+    color: #01a0c1;
+    font-size: 28px;
+    margin: 0 0 20px;
+    line-height: 21px;
+    border-bottom: 1px solid #d6d6d6;
+    font-family: "robotolight",sans-serif;
+    text-transform: uppercase;
+}
+#institutedetail .institution-bottom h2.heading>b {
+    font-family: "robotobold",sans-serif;
+}
+#institutedetail .institution-bottom h2.heading p.line {
+    border-bottom: 3px solid #01a0c1;
+    width: 65px;
+    margin: 0 0 -2px!important;
+    padding: 16px 0 0;
+}
+#institutedetail .institution-bottom .common{
+    float: left;
+    width: 32.4%;
+    background-color: #fff;
+    margin-right: 16px;
+}
+#institutedetail .institution-bottom .common:last-child{
+    margin: 0;
+}
+#institutedetail .institution-bottom .common .img-block{
+    background-color: #f4f4f4;
+    float: left;
+    padding: 14px 12px;
+    width: 100px;
+    height: 66px;
+    margin-left: 25px;
+    z-index: 999;
+    position: relative;
+}
+#institutedetail .institution-bottom .common .banner{
+    top: -33px;
+    position: relative;
+    width: 400px;
+    height: 190px;
+}
+#institutedetail .institution-bottom .common .badge-block{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 8px 12px;
+    float: left;
+    width: 100%;
+    margin: -62px 0 0;
+    position: relative;
+    z-index: 999;
+}
+#institutedetail .institution-bottom .common .badge-block h5{
+    color: #fefefe;
+    margin: 0 0 12px;
+    line-height: 16px;
+    font-family: "robotobold",sans-serif;
+}
+#institutedetail .institution-bottom .common .badge-block .location{
+    font-size: 14px;
+    color: #ffffff;
+    float: left;
+}
+#institutedetail .institution-bottom .common .badge-block .rating-block{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "robotobold",sans-serif;
+    float: right;
+}
+#institutedetail .institution-bottom .common .badge-block .rating-block .ratings{
+    float: left;
+    padding: 3px 0 0 10px;
+}
+#institutedetail .institution-bottom .common .badge-block .rating-block .ratings img{
+    padding: 0 1px;
+}
+#institutedetail .institution-bottom .common .content{
+    float: left;
+    width: 100%;
+    padding: 22px 20px 24px;
+}
+#institutedetail .institution-bottom .common .content p{
+    color: #808080;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: center;
+    font-family: "robotolight",sans-serif;
+}
+#institutedetail .institution-bottom .common .content p>b{
+    font-family: "robotobold",sans-serif;
+    color: #000;
+}
+#institutedetail .institution-bottom .common .cta{
+    float: left;
+    width: 100%;
+}
+#institutedetail .institution-bottom .common .cta button{
+    width: 50%;
+    float: left;
+    border: 0;
+    padding: 6px 12px;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 16px;
+    font-family: "robotomedium",sans-serif;
+    height: 38px;
+    text-transform: uppercase;   
+    background-color: transparent;
+}
+#institutedetail .institution-bottom .common .cta .request{
+    background-color: #000000;
+}
+#institutedetail .institution-bottom .common .cta .apply{
+    background-color: #01a0c1;
+}
+/*institution-bottom block ends */
+
+
+/*media queries*/
+@media (min-width : 992px) and (max-width : 1199px) {
+    #institutedetail .header .left #institute-carousel .item {
+        height: auto;
+    }
+    #institutedetail .header .left .college-details .media-right h2 {
+        font-size: 22px;
+    }
+    #institutedetail .header .right form h2 {
+        font-size: 22px;
+    }
+    #institutedetail .header .right form .form-control {
+        font-size: 12px
+    }
+    #institutedetail .header .right form button.request {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    #institutedetail .nav-tabs>li>a {
+        font-size: 14px;
+        padding: 18px 8px 15px;
+    }
+    #institutedetail .contents .left .tab-pane#Overview .common {
+        width: 45%;
+    }
+    #institutedetail .contents .left .tab-pane h2.heading {
+        font-size: 22px;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .nav-tabs>li>a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left,
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left {
+        width: 70%;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-right,
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-right {
+        width: 25%;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left a,
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left a:hover,
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left a,
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left a:hover {
+        font-size: 18px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common a,
+    #institutedetail .contents .left .tab-pane#News .common p,
+    #institutedetail .contents .left .tab-pane#News .common .social-icons>a>i,
+    #institutedetail .contents .left .tab-pane#News .common .right.cta .media-right p{
+        font-size: 12px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .left {
+        margin-right: 18px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .right {
+        margin-left: 18px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .right.cta .media-right p>b {
+        font-size: 16px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .right.cta .media-right button {
+        height: 36px;
+        font-size: 13px;
+    }
+    #institutedetail .contents .left .tab-pane#Facilities .common {
+        margin: 0 25px 15px;
+    }
+    #institutedetail .contents .left .tab-pane#Contact .c-left,
+    #institutedetail .contents .left .tab-pane#Contact .c-right,
+    #institutedetail .contents .left .tab-pane#Contact .c-right iframe {
+        height: 395px;
+    }
+    #institutedetail .institution-bottom h2.heading {
+        font-size: 22px;
+    }
+    #institutedetail .institution-bottom .common {
+        margin-right: 12px;
+    }
+    #institutedetail .institution-bottom .common .badge-block h5,
+    #institutedetail .institution-bottom .common .badge-block .location,
+    #institutedetail .institution-bottom .common .badge-block .rating-block,
+    #institutedetail .institution-bottom .common .content p{
+        font-size: 12px;
+    }
+    #institutedetail .institution-bottom .common .badge-block .rating-block .ratings {
+        padding: 3px 0 0 4px;
+    }
+    #institutedetail .institution-bottom .common .badge-block {
+        height: 80px;
+    }
+    #institutedetail .institution-bottom .common .content h4 {
+        font-size: 16px;
+    }
+    #institutedetail .institution-bottom .common .cta button {
+        font-size: 13px;
+    }
+    #institutedetail .contents .right .claim p {
+        font-size: 14px;
+    }
+    #institutedetail .contents .right .claim button {
+        padding: 6px 4px;
+        font-size: 12px;
+        height: 42px;
+    }
+    #institutedetail .contents .right .rate button {
+        font-size: 12px;
+    }
+    #institutedetail .contents .right .apply-now h5 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+    #institutedetail .header .left {
+        width: 100%;
+    }
+    #institutedetail .header .left #institute-carousel .item {
+        height: auto;
+    }
+    #institutedetail .header .left .college-details {
+        padding: 20px 30px 10px;
+    }
+    #institutedetail .header .left .college-details .media-left img {
+        padding: 3px 0 0;
+    }
+    #institutedetail .header .left .college-details .media-right h2,
+    #institutedetail .header .right form h2 {
+        font-size: 22px;
+    }
+    #institutedetail .header .right form .form-control {
+        font-size: 12px;
+    }
+    #institutedetail .header .right {
+        width: 100%;
+        padding: 25px;
+    }
+    #institutedetail .header .right form button.request {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+    #institutedetail .nav-tabs>li>a,
+    #institutedetail.institutedetail-fixed #institutedetail-nav-tabs.nav-tabs>li>a {
+        font-size: 14px;
+        padding: 12px 10px;
+    }
+    #institutedetail .contents .left {
+        width: 100%;
+        float: left;
+        margin: 0 0 2%;
+    }
+    #institutedetail .contents .left .tab-pane#Overview .common {
+        width: 45%;
+    }
+    #institutedetail .contents .left .tab-pane h2.heading {
+        font-size: 22px;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .nav-tabs>li>a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left,
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left {
+        width: 70%;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-right,
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-right {
+        width: 25%;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left a,
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left a:hover,
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left a,
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left a:hover {
+        font-size: 18px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common a,
+    #institutedetail .contents .left .tab-pane#News .common p,
+    #institutedetail .contents .left .tab-pane#News .common .social-icons>a>i,
+    #institutedetail .contents .left .tab-pane#News .common .right.cta .media-right p{
+        font-size: 12px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .left {
+        margin-right: 18px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .right {
+        margin-left: 18px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .right.cta .media-right p>b {
+        font-size: 16px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .right.cta .media-right button {
+        height: 36px;
+        font-size: 13px;
+    }
+    #institutedetail .contents .left .tab-pane#Facilities .common {
+        margin: 0 25px 15px;
+    }
+    #institutedetail .contents .left .tab-pane#Contact .c-left,
+    #institutedetail .contents .left .tab-pane#Contact .c-right,
+    #institutedetail .contents .left .tab-pane#Contact .c-right iframe {
+        height: 395px;
+    }
+    #institutedetail .institution-bottom h2.heading {
+        font-size: 22px;
+    }
+    #institutedetail .institution-bottom .common {
+        margin-right: 12px;
+    }
+    #institutedetail .institution-bottom .common .badge-block h5,
+    #institutedetail .institution-bottom .common .badge-block .location,
+    #institutedetail .institution-bottom .common .badge-block .rating-block,
+    #institutedetail .institution-bottom .common .content p{
+        font-size: 12px;
+    }
+    #institutedetail .institution-bottom .common .badge-block .rating-block .ratings {
+        padding: 3px 0 0 4px;
+    }
+    #institutedetail .institution-bottom .common .badge-block {
+        height: 80px;
+    }
+    #institutedetail .institution-bottom .common .content h4 {
+        font-size: 16px;
+    }
+    #institutedetail .institution-bottom .common .cta button {
+        font-size: 13px;
+    }
+    #institutedetail .contents .right {
+        width: 100%;
+    }
+    #institutedetail .contents .right .claim p {
+        font-size: 14px;
+    }
+    #institutedetail .contents .right .claim button {
+        font-size: 12px;
+    }
+    #institutedetail .contents .right .rate button {
+        font-size: 12px;
+    }
+    #institutedetail .contents .right .apply-now h5 {
+        font-size: 14px;
+        text-align: center;
+    }
+    #institutedetail .contents .right .ads {
+        margin: 0 auto 15px;
+    }
+    #institutedetail .contents .right .rate .stars {
+        padding: 15px 240px 20px;
+    }
+    #institutedetail .contents .right .compare-coll {
+        padding: 25px 20px;
+    }
+    #institutedetail .contents .right .compare-coll h4{
+        font-size: 18px;
+    }
+    #institutedetail .contents .right .compare-coll h5,
+    #institutedetail .contents .right .compare-coll form button.compare{
+        font-size: 14px;
+    }
+    #institutedetail .institution-bottom .common {
+        width: 48%;
+        margin-right: 15px;
+        margin-bottom: 2%;
+    }
+    #institutedetail .contents .left .tab-pane#Employers .lSAction > a {
+        top: 25%;
+    }
+}
+
+@media (max-width : 767px) {
+    #top-strip {
+        height: 40px;
+    }
+    .breadcrumb {
+        padding: 12px 0 12px;
+    }
+    .breadcrumb li.active, .breadcrumb a {
+        font-size: 12px;
+    }
+    #institutedetail .header .left {
+        width: 100%;
+    }
+    #institutedetail .header .left #institute-carousel .item,
+    #institutedetail .header .left #institute-carousel .item>img {
+        height: 200px;
+    }
+    #institutedetail .header .left #institute-carousel .carousel-control span {
+        top: 52%;
+    }
+    #institutedetail .header .left .college-details {
+        padding: 10px 10px 0;
+    }
+    #institutedetail .header .left .college-details .media-left{
+        width: 100%;
+        display: block;
+        padding: 0 0 12px;
+    }
+    #institutedetail .header .left .college-details .media-left img {
+        padding: 0;
+    }
+    #institutedetail .header .left .college-details .media-right {
+        padding-left: 0;
+        display: block;
+        text-align: center;
+    }
+    #institutedetail .header .left .college-details .media-right h2,
+    #institutedetail .header .right form h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    #institutedetail .header .left .college-details .media-right .detail p, 
+    #institutedetail .header .left .college-details .media-right .detail a {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 2px 12px 12px 0;
+        margin-right: 12px;
+    }
+    #institutedetail .header .right form .form-control {
+        font-size: 12px;
+        height: 34px;
+    }
+    #institutedetail .header .right {
+        width: 100%;
+        padding: 10px;
+        margin: 2% 0 0;
+    }
+    #institutedetail .header .right form button.request {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+    #institutedetail .nav-tabs>li>a{
+        font-size: 12px;
+        padding: 8px 2px;
+        margin: 0 6px;
+    }
+    #institutedetail.institutedetail-fixed #institutedetail-nav-tabs.nav-tabs{
+        padding: 0 2px;
+    }
+    #institutedetail.institutedetail-fixed #institutedetail-nav-tabs.nav-tabs>li>a {
+        font-size: 10px;
+        padding: 2px;
+        margin: 0 2px;
+    }    
+    #institutedetail .scrtabs-tab-scroll-arrow {
+        padding-top: 12px;
+    }    
+    #institutedetail .contents .left {
+        width: 100%;
+        float: left;
+        margin: 0 0 2%;
+    }
+    #institutedetail .contents .left .tab-pane {
+        padding: 12px!important;
+    }
+    #institutedetail .contents .left .tab-pane#Overview {
+        padding: 12px;
+    }
+    #institutedetail .contents .left .tab-pane#Overview .common {
+        width: 100%;
+        padding: 12px;
+        margin: 0 0 15px;
+        height: auto;
+    }
+    #institutedetail .contents .left .tab-pane#Overview .common h5 {
+        font-size: 12px;
+        margin: 0 0 16px;
+    }
+    #institutedetail .contents .left .tab-pane#Overview .common h4 {
+        font-size: 14px;
+        line-height: 18px;
+        width: 50%;
+        padding: 6px 20px;
+    }
+    #institutedetail .contents .left .tab-pane#Overview .common.year h4 {
+        font-size: 24px;
+        width: 50%;
+    }
+    #institutedetail .contents .left .tab-pane#Overview .common .img-block {
+        width: 44%;
+    }
+    #institutedetail .contents .left .tab-pane#Overview .common.numbers h4{
+        font-size: 30px;
+        padding: 6px 20px;
+    }
+    #institutedetail .contents .left .tab-pane#Overview .common h4>span{
+        font-size: 12px;
+    }
+    #institutedetail .contents .left .tab-pane#Overview .common.rating .img-block {
+        width: 44%;
+    }
+    #institutedetail .contents .left .tab-pane#Overview .common.rating h4 {
+        width: 50%;
+    }
+    #institutedetail .contents .left .tab-pane#Overview .common.admission h4 {
+        font-size: 16px;
+        width: 54%;
+        padding: 2px 6px;
+        line-height: 24px;
+    }
+    #institutedetail .contents .left .tab-pane h2.heading {
+        font-size: 16px;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .nav-tabs {
+        margin: 0;
+    }
+    #institutedetail .contents .left .tab-pane h2.heading p.line {
+        padding: 8px 0 0;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .nav-tabs>li {
+        width: 100%;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .nav-tabs>li>a {
+        font-size: 12px;
+        margin: 0 0 3px;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left,
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left {
+        width: 100%;
+        margin: 0 0 5%;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-right,
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-right {
+        width: 100%;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left a,
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left a:hover,
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left a,
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left a:hover {
+        font-size: 14px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common a,
+    #institutedetail .contents .left .tab-pane#News .common p,
+    #institutedetail .contents .left .tab-pane#News .common .social-icons>a>i,
+    #institutedetail .contents .left .tab-pane#News .common .right.cta .media-right p,
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left .detail p,
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left h5,
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-right a,
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-right a:hover{
+        font-size: 12px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .left {
+        margin-right: 18px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .right {
+        margin-left: 18px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .right.cta .media-right p>b {
+        font-size: 16px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .right.cta .media-right button {
+        height: 36px;
+        font-size: 13px;
+    }
+    #institutedetail .contents .left .tab-pane#Facilities .common {
+        margin: 0 18px 12px;
+        width: 21%;
+    }
+    #institutedetail .contents .left .tab-pane#Facilities .common .img-block {
+        padding: 20px 5px;
+        height: 65px;
+        width: 65px!important;
+    }
+    #institutedetail .contents .left .tab-pane#Facilities .common .img-block>img {
+        width: 25px;
+        height: 25px;
+    }
+    #institutedetail .contents .left .tab-pane#Contact .c-left,
+    #institutedetail .contents .left .tab-pane#Contact .c-right,
+    #institutedetail .contents .left .tab-pane#Contact .c-right iframe {
+        width: 100%;
+        padding-left: 0;
+        margin-right: 0;
+        margin-bottom: 15px;
+        height: auto;
+    }
+    #institutedetail .contents .left .tab-pane#Contact .c-left h5 {
+        line-height: 20px;
+        font-size: 14px;
+    }
+    #institutedetail .contents .left .tab-pane#Contact p {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0 0 12px;
+    }
+    #institutedetail .contents .left .tab-pane#Contact .c-left ul>li>p {
+        font-size: 12px;
+        line-height: 18px;    
+    }
+    #institutedetail .contents .left .tab-pane#Contact .c-right iframe{
+        margin-bottom: 0;
+        height: 250px;
+    }
+    #institutedetail .contents .left .tab-pane#Contact p.last {
+        margin: 0 0 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #institutedetail .contents .left .tab-pane#Contact .c-right a, 
+    #institutedetail .contents .left .tab-pane#Contact .c-right a:hover {
+        padding: 6px 12px;
+        font-size: 12px;
+        top: -42px;
+    }
+    #institutedetail .institution-bottom h2.heading {
+        font-size: 22px;
+    }
+    #institutedetail .institution-bottom .common {
+        margin-right: 12px;
+    }
+    #institutedetail .institution-bottom .common .badge-block h5,
+    #institutedetail .institution-bottom .common .badge-block .location,
+    #institutedetail .institution-bottom .common .badge-block .rating-block,
+    #institutedetail .institution-bottom .common .content p{
+        font-size: 12px;
+    }
+    #institutedetail .institution-bottom .common .badge-block .rating-block .ratings {
+        padding: 3px 0 0 4px;
+    }
+    #institutedetail .institution-bottom .common .badge-block {
+        height: 80px;
+    }
+    #institutedetail .institution-bottom .common .content h4 {
+        font-size: 16px;
+    }
+    #institutedetail .institution-bottom .common .cta button {
+        font-size: 13px;
+    }
+    #institutedetail .contents .right {
+        width: 100%;
+    }
+    #institutedetail .contents .right .claim p {
+        font-size: 14px;
+    }
+    #institutedetail .contents .right .claim button {
+        padding: 4px 10px;
+        font-size: 12px;
+        height: 28px;
+        margin: 25px 0 0;
+    }
+    #institutedetail .contents .right .rate button {
+        font-size: 12px;
+        height: 28px;
+        line-height: 16px;
+        padding: 4px 20px;
+    }
+    #institutedetail .contents .right .apply-now h5 {
+        font-size: 14px;
+        text-align: center;
+    }
+    #institutedetail .contents .right .ads {
+        margin: 0 auto 15px;
+    }
+    #institutedetail .contents .right .rate .stars {
+        padding: 15px 75px 20px;
+    }
+    #institutedetail .contents .right .compare-coll {
+        padding: 10px;
+    }
+    #institutedetail .contents .right .compare-coll h4{
+        font-size: 16px;
+        margin: 0 0 8px;
+        line-height: 22px;
+        padding: 0 0 8px;
+    }
+    #institutedetail .contents .right .compare-coll h5 {
+        margin: 0 0 15px;
+        line-height: 16px;
+    }
+    #institutedetail .contents .right .compare-coll form button.compare {
+        height: 28px;
+        line-height: 16px;
+        margin: 15px auto 0;
+        padding: 4px 25px;
+    }
+    #institutedetail .contents .right .compare-coll h5,
+    #institutedetail .contents .right .compare-coll form button.compare{
+        font-size: 14px;
+    }
+    #institutedetail .institution-bottom .common {
+        width: 48%;
+        margin-right: 15px;
+        margin-bottom: 2%;
+    }
+    #institutedetail .contents .left .tab-pane#Employers .lSAction > a {
+        top: 25%;
+    }
+    #institutedetail .header .left #institute-carousel a.details, 
+    #institutedetail .header .left #institute-carousel a.details:hover {
+        padding: 6px 8px 4px;
+        font-size: 11px;
+        top: 6px;
+        right: 6px;
+    }
+    #institutedetail .header .left #institute-carousel .controls{
+        display: none;
+    }
+    #institutedetail .header .left #institute-carousel .carousel-control.left,
+    #institutedetail .header .left #institute-carousel .carousel-control.right {
+        display: block;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common {
+        padding: 0 0 15px;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-right button {
+        font-size: 12px;
+        height: 28px;
+        margin: 0 auto;
+        padding: 4px 18px;
+    }
+    #institutedetail .contents .left .tab-pane#Courses .tab-content .common .c-left .detail p {
+        margin-right: 40px;
+    }
+    #institutedetail .contents .left .tab-pane#Scholarships .common {
+        padding: 0 0 15px;
+    }
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left .date-block {
+        width: 100%;
+        margin: 0 0 2%;
+        height: auto;
+        padding: 15px 0;
+    }
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left .date-block h4{
+        font-size: 14px;
+    }
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left .date-block p{
+        font-size: 22px;
+    }
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left .title-block {
+        width: 100%;
+    }
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left h4{
+        line-height: 20px;
+        font-size: 14px;
+    }
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-left .detail p{
+        font-size: 10px;
+    }
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-right a,
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-right a:hover{
+        font-size: 12px;
+    }
+    #institutedetail .contents .left .tab-pane#Scholarships .common .c-right button {
+        font-size: 12px;
+        height: 28px;
+        line-height: 16px;
+        padding: 4px 20px;
+    }
+    #institutedetail .contents .left a.view-more, #institutedetail .contents .left a.view-more:hover {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common a,
+    #institutedetail .contents .left .tab-pane#News .common p,
+    #institutedetail .contents .left .tab-pane#News .common .social-icons>a>i,
+    #institutedetail .contents .left .tab-pane#News .common .right.cta .media-right p{
+        font-size: 12px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .left,
+    #institutedetail .contents .left .tab-pane#News .common .right {
+        margin: 0 0 20px;
+        width: 100%;
+        height: auto;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .left .media-left,
+    #institutedetail .contents .left .tab-pane#News .common .right .media-left{
+        display: block;
+        padding: 0;
+    }
+    #institutedetail .contents .left .tab-pane#News .common.first,
+    #institutedetail .contents .left .tab-pane#News .common {
+        padding: 10px 5px 0;
+        margin: 0 0 15px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .left .media-left img,
+    #institutedetail .contents .left .tab-pane#News .common .right .media-left img{
+        margin: 0 auto 10px;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .left .media-right{
+        padding: 0;
+    }
+    #institutedetail .contents .left .tab-pane#News .common .right.cta .media-right p>b {
+        font-size: 14px
+    }
+    #institutedetail .contents .left .tab-pane#News .common .right.cta .media-right button {
+        height: 34px;
+        font-size: 12px;
+    }
+    #institutedetail .contents .left .tab-pane#Facilities .Facilities {
+        padding: 10px 0 15px;
+    }
+    #institutedetail .contents .left .tab-pane#Facilities .common p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    #institutedetail .contents .left .tab-pane#Overview-text p {
+        font-size: 12px;
+        line-height: 20px;
+        margin: 0 0 12px;
+        text-align: justify;
+    }
+    #institutedetail .contents .right .ask-questions {
+        padding: 10px
+    }
+    #institutedetail .contents .right .ask-questions button {
+        padding: 6px 20px;
+        font-size: 14px;
+        height: 28px;
+    }
+    #institutedetail .contents .right .ask-questions p {
+        line-height: 12px;
+        font-size: 12px;
+    }
+    #institutedetail .contents .right .claim p {
+        line-height: 20px;
+        font-size: 13px;
+    }
+    #institutedetail .contents .right .rate {
+        padding: 10px;
+    }
+    #institutedetail .contents .right .rate h4 {
+        font-size: 16px;
+        margin: 0 0 12px;
+        line-height: 24px;
+        padding: 0 0 6px;
+    }
+    #institutedetail .contents .right .rate h5 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    #institutedetail .contents .right .rate .stars img {
+        width: 20px;
+        height: 20px;
+    }
+    #institutedetail .contents .right .apply-now {
+        padding: 10px;
+    }
+    #institutedetail .contents .right .apply-now h4 {
+        font-size: 16px;
+        margin: 0 0 12px;
+        line-height: 22px;
+        padding: 0 0 8px;
+    }
+    #institutedetail .contents .right .apply-now button {
+        font-size: 13px;
+        height: 28px;
+        margin: 15px auto 0;
+        padding: 4px 20px;
+    }
+    #institutedetail .institution-bottom {
+        margin: 25px 0;
+    }
+    #institutedetail .institution-bottom h2.heading {
+        font-size: 16px;
+    }
+    #institutedetail .institution-bottom .common {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+    #institutedetail .institution-bottom .common .badge-block h5,
+    #institutedetail .institution-bottom .common .badge-block .location,
+    #institutedetail .institution-bottom .common .badge-block .rating-block,
+    #institutedetail .institution-bottom .common .content p{
+        font-size: 12px;
+    }
+    #institutedetail .institution-bottom .common .badge-block .rating-block .ratings {
+        padding: 1px 0 0 4px;
+    }
+    #institutedetail .institution-bottom .common .badge-block {
+        height: auto;
+    }
+    #institutedetail .institution-bottom .common .content h4 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    #institutedetail .institution-bottom .common .cta button {
+        font-size: 12px;
+        height: 32px;
+    }  
+    #institutedetail .institution-bottom .common .badge-block .location {
+        width: 100%;
+        margin: 0 0 12px;
+    }
+    #institutedetail .institution-bottom .common .badge-block .rating-block {
+        float: left;
+        width: 100%;
+    }
+    #institutedetail .contents .left .tab-pane#Courses a.view-all {
+        font-size: 14px;
+        padding: 3px 0 0;
+    }
+    #institutedetail .contents .left .tab-pane#Courses select.select-course,
+    #institutedetail .contents .left .tab-pane#Courses select.select-course:focus {
+        width: 45%;
+        height: 28px;
+        font-size: 12px;
+        margin: -2px 0 0;
+        padding: 4px 8px;
+    }
+}
+/*institutedetail page ends*/
+
+
+/*institutedetail-courses page starts*/
+#institutedetail-courses{
+
+}
+/*institutedetail-courses page ends*/
+
+
+/*institutedetail-courses-detail page starts*/
+#institutedetail-courses-detail #coursename h2{
+    font-size: 24px;
+    line-height: 16px;
+    color: #01a0c1;
+    font-family: "robotobold",sans-serif;
+    margin: 15px 0;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .common.numbers h4 {
+    color: #808080;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 3px 10px 6px 30px;
+    text-transform: inherit;
+    text-align: left;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .common.numbers h4>b {
+    color: #808080;
+    font-size: 36px;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .common.duration h4{
+    text-align: center;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .common.numbers .img-block {
+    padding: 3px 0 0;
+}
+#institutedetail .contents .left .tab-pane#Overview .common h4 {
+    padding: 3px 0 6px 20px;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .common.fees h4{
+    font-size: 22px;
+    color: #898989;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .common h4 {
+    font-size: 18px;
+    text-transform: inherit;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .common.intake .img-block{
+    width: 28%;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .common.intake h4{
+    width: 66%;
+    padding: 1px 0 4px 20px;
+    line-height: 16px;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .common.intake h4>span{
+    font-size: 13px;
+}
+
+/*detail tab starts*/
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail p.overleft{
+    color: #808080;
+    font-size: 16px;
+    margin: 0 5% 0 0;
+    line-height: 24px;
+    width: 65%;
+    float: left;
+    text-align: justify;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright{
+    float: left;
+    width: 30%;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright .top{
+    background-color: #f4f4f4;
+    padding: 20px 25px;
+    margin: 0 0 15px;
+    float: left;
+    width: 100%;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright .top .dip,
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright .top .deg{
+    width: 50%;
+    float: left;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright .top .deg{
+    padding-left: 15px;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright .top h5{
+    font-size: 14px;
+    color: #808080;
+    margin: 0 0 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright .top p{
+    color: #808080;
+    font-size: 14px;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright .top h6{
+    font-size: 26px;
+    font-family: "robotobold",sans-serif;
+    color: #808080;
+    margin: 5px 0 0 5px;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright .top .dip .media-body{
+    border-right: 1px solid #888888;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright button{
+    width: 100%;
+    background-color: #c4d54b;
+    margin: 0 0 14px;
+    border: 0;
+    font-size: 15px;
+    color: #ffffff;
+    height: 36px;
+    padding: 6px 12px;
+    text-align: center;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright button.ask{
+    background-color: #01a0c1;
+    text-transform: uppercase;
+}
+/*detail tab ends*/
+
+/*Entry-Requirements tab starts*/
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail #Entry-Requirements h4{
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+    margin: 0;
+    font-family: "robotobold",sans-serif;   
+    padding: 0 10px;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail #Entry-Requirements ul{
+    margin: 2px 0 25px;
+    padding: 0 10px 0 25px;  
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail #Entry-Requirements ul:last-child{
+    margin: 2px 0 0;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail #Entry-Requirements ul>li{
+    list-style-image: url('../img/institutedetail/course-details/li-icon.png');
+    color: #808080;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 8px;
+}
+/*Entry-Requirements tab ends*/
+
+/*subjects tab starts*/
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects h4.year{
+    color: #000000;
+    padding: 10px 10px 0;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects h4{
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+    margin: 0;
+    font-family: "robotobold",sans-serif;   
+    padding: 0 10px;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects ul{
+    margin: 2px 0 25px;
+    padding: 0 10px 0 35px;  
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects ul:last-child{
+    margin: 2px 0 0;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects ul>li{
+    list-style-image: url('../img/institutedetail/course-details/li-icon.png');
+    color: #808080;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 8px;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects .s-left{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+#institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects .s-right{
+    width: 48%;
+    float: left;
+    margin-bottom: 2%;
+}
+/*subjects tab ends*/
+
+/*media queries*/
+@media (min-width : 992px) and (max-width : 1199px) {
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail p.overleft {
+        font-size: 14px;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright button,
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright button.ask{
+        font-size: 13px;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #Entry-Requirements ul>li,
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects ul>li {
+        font-size: 14px;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #Entry-Requirements h4,
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects h4{
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail p.overleft {
+        font-size: 14px;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright button,
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright button.ask{
+        font-size: 13px;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #Entry-Requirements ul>li,
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects ul>li {
+        font-size: 14px;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #Entry-Requirements h4,
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects h4{
+        font-size: 15px;
+    }
+}
+
+@media (max-width : 767px) {
+    #institutedetail-courses-detail #coursename h2 {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 2px 0;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail p.overleft {
+        font-size: 12px;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright button,
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright button.ask{
+        font-size: 12px;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #Entry-Requirements ul>li,
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects ul>li {
+        font-size: 12px;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #Entry-Requirements h4,
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects h4{
+        font-size: 14px;
+    }  
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail p.overleft{
+        margin: 0 0 6%;
+        width: 100%;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright {
+        width: 100%;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright .top {
+        padding: 10px 25px;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail .overright button{
+        height: 32px;
+        margin: 0 0 8px;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #Entry-Requirements ul,
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects ul {
+        margin: 2px 0 15px;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects .s-left,
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects .s-right {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+    #institutedetail .contents .left .tab-content#institutedetail-courses-detail #subjects h4.year {
+        padding: 0 10px 0;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/*institutedetail-courses-detail page ends*/
